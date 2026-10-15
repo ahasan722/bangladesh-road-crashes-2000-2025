@@ -1,0 +1,168 @@
+year,vehicle_type,measure,count,note,citation_url
+2003,total,cumulative_stock,737400,"BRTA via Banglapedia: registered 'up to 2003'. CONFLICT: ICME07 (ARC-BUET) and Mahmud et al JT 2013 give 784347 registered up to 2003 (485228 on-road 2001-02).",https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2003,motorcycle,cumulative_stock,321347,"BRTA via Banglapedia, up to 2003.",https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2003,motor_car,cumulative_stock,116196,"BRTA via Banglapedia, up to 2003.",https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2003,jeep_wagon_microbus,cumulative_stock,49364,"BRTA via Banglapedia, up to 2003.",https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2003,taxi,cumulative_stock,10932,"BRTA via Banglapedia, up to 2003.",https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2003,bus,cumulative_stock,30617,"BRTA via Banglapedia, up to 2003.",https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2003,minibus,cumulative_stock,33364,"BRTA via Banglapedia, up to 2003.",https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2003,truck,cumulative_stock,51375,"BRTA via Banglapedia, up to 2003.",https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2003,auto_rickshaw_tempo,cumulative_stock,98479,"BRTA via Banglapedia, up to 2003 (CNG three-wheelers fall here).",https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2003,others,cumulative_stock,25726,"BRTA via Banglapedia, up to 2003.",https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2004,total,annual_new,49202,"BRTA via Banglapedia (annual registrations).",https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2004,motorcycle,annual_new,24941,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2004,motor_car,annual_new,5410,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2004,jeep_wagon_microbus,annual_new,2514,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2004,taxi,annual_new,540,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2004,bus,annual_new,857,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2004,minibus,annual_new,622,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2004,truck,annual_new,2583,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2004,auto_rickshaw_tempo,annual_new,8974,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2004,others,annual_new,2761,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2005,total,annual_new,65878,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2005,motorcycle,annual_new,43226,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2005,motor_car,annual_new,6431,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2005,jeep_wagon_microbus,annual_new,3963,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2005,taxi,annual_new,515,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2005,bus,annual_new,783,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2005,minibus,annual_new,361,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2005,truck,annual_new,2791,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2005,auto_rickshaw_tempo,annual_new,4877,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2005,others,annual_new,2931,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2006,total,annual_new,80305,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2006,motorcycle,annual_new,51106,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2006,motor_car,annual_new,8447,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2006,jeep_wagon_microbus,annual_new,5540,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2006,taxi,annual_new,275,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2006,bus,annual_new,1020,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2006,minibus,annual_new,241,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2006,truck,annual_new,3065,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2006,auto_rickshaw_tempo,annual_new,6898,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2006,others,annual_new,3713,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2007,total,annual_new,121272,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2007,motorcycle,annual_new,85131,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2007,motor_car,annual_new,11941,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2007,jeep_wagon_microbus,annual_new,5650,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2007,taxi,annual_new,15,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2007,bus,annual_new,1368,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2007,minibus,annual_new,382,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2007,truck,annual_new,2521,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2007,auto_rickshaw_tempo,annual_new,10530,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2007,others,annual_new,3734,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2008,total,annual_new,144419,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2008,motorcycle,annual_new,93541,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2008,motor_car,annual_new,16927,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2008,jeep_wagon_microbus,annual_new,6537,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2008,taxi,annual_new,9,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2008,bus,annual_new,1342,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2008,minibus,annual_new,307,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2008,truck,annual_new,2609,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2008,auto_rickshaw_tempo,annual_new,19071,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2008,others,annual_new,4076,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2008,total,cumulative_stock,871853,"Mahmud, Talukder, Ahmed, Raihan (JT 2013): registered motor vehicles 2008. Banglapedia cumulative to 2008 sums to 1198476 (conflict; different BRTA vintages).",https://journals.utm.my/jurnalteknologi/article/download/2146/1711/4912
+2009,total,annual_new,145243,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2009,motorcycle,annual_new,45142,"Banglapedia motorcycle grand total (704434) exceeds column sum (664434) by 40000; the 2009 cell may be misprinted.",https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2009,motor_car,annual_new,21461,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2009,jeep_wagon_microbus,annual_new,9027,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2009,taxi,annual_new,12,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2009,bus,annual_new,1184,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2009,minibus,annual_new,320,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2009,truck,annual_new,6561,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2009,auto_rickshaw_tempo,annual_new,14902,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2009,others,annual_new,6634,,https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2009,total,cumulative_stock,1343719,"Banglapedia grand total up to 2009 (as printed).",https://en.banglapedia.org/index.php/Bangladesh_Road_Transport_Authority
+2010,total,cumulative_stock,1424000,"BRTA director quoted in Daily Star editorial 17 Jan 2023: 14.24 lakh vehicles in 2010.",https://www.thedailystar.net/opinion/editorial/news/misguided-approach-road-safety-3223371
+2010,motor_car,annual_new,22960,"CEIC (BRTA): private passenger car registrations, all-time high 2010.",https://www.ceicdata.com/en/bangladesh/motor-vehicle-registered
+2011,total,cumulative_stock,1683630,"BBS Statistical Yearbook 2016 as reproduced in GED Study No.12 Table 2 (thousands x1000). Includes motorcycles.",https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2011,motorcycle,cumulative_stock,873870,"BBS 2016 via GED Study 12.",https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2011,auto_rickshaw,cumulative_stock,147190,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2011,bus,cumulative_stock,29540,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2011,covered_van_pickup,cumulative_stock,72790,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2011,microbus_jeep,cumulative_stock,112520,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2011,private_car,cumulative_stock,232780,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2011,truck,cumulative_stock,90200,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2011,others,cumulative_stock,124740,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2012,total,cumulative_stock,1844330,"BBS 2016 via GED Study 12.",https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2012,motorcycle,cumulative_stock,975460,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2012,auto_rickshaw,cumulative_stock,170730,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2012,bus,cumulative_stock,30980,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2012,covered_van_pickup,cumulative_stock,82890,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2012,microbus_jeep,cumulative_stock,117850,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2012,private_car,cumulative_stock,242000,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2012,truck,cumulative_stock,94530,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2012,others,cumulative_stock,129890,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2012,motor_car,annual_new,9220,"CEIC (BRTA): private car registrations, all-time low 2012.",https://www.ceicdata.com/en/bangladesh/motor-vehicle-registered
+2013,total,cumulative_stock,1981450,"BBS 2016 via GED Study 12.",https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2013,motorcycle,cumulative_stock,1061270,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2013,auto_rickshaw,cumulative_stock,186430,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2013,bus,cumulative_stock,32090,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2013,covered_van_pickup,cumulative_stock,93300,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2013,microbus_jeep,cumulative_stock,122090,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2013,private_car,cumulative_stock,252480,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2013,truck,cumulative_stock,99660,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2013,others,cumulative_stock,134140,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2014,total,cumulative_stock,2142080,"BBS 2016 via GED Study 12.",https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2014,motorcycle,cumulative_stock,1151950,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2014,auto_rickshaw,cumulative_stock,206330,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2014,bus,cumulative_stock,33570,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2014,covered_van_pickup,cumulative_stock,107500,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2014,microbus_jeep,cumulative_stock,128490,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2014,private_car,cumulative_stock,267180,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2014,truck,cumulative_stock,107800,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2014,others,cumulative_stock,139260,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2015,total,cumulative_stock,2463300,"BBS 2016 via GED Study 12.",https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2015,motorcycle,cumulative_stock,1392310,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2015,auto_rickshaw,cumulative_stock,226330,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2015,bus,cumulative_stock,35960,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2015,covered_van_pickup,cumulative_stock,122230,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2015,microbus_jeep,cumulative_stock,138460,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2015,private_car,cumulative_stock,288240,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2015,truck,cumulative_stock,114130,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2015,others,cumulative_stock,145640,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2016,total,cumulative_stock,2879710,"BBS 2016 via GED Study 12.",https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2016,motorcycle,cumulative_stock,1724370,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2016,auto_rickshaw,cumulative_stock,237500,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2016,bus,cumulative_stock,39800,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2016,covered_van_pickup,cumulative_stock,140140,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2016,microbus_jeep,cumulative_stock,152640,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2016,private_car,cumulative_stock,308540,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2016,truck,cumulative_stock,121400,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2016,others,cumulative_stock,155310,,https://gedkp.gov.bd/wp-content/uploads/2021/02/GED-STUDY-NO.-12-TRANSPORTATION-AND-QUALITY-INFRASTRUCTURE_FINAL-1.docx
+2016,bus,annual_new,3832,"CEIC (BRTA): bus registrations all-time high 2016.",https://www.ceicdata.com/en/bangladesh/motor-vehicle-registered
+2016,total,annual_new_FY,381181,"BRTA via Financial Express 10 Feb 2019: FY2015-16 registrations (fiscal year July-June).",https://thefinancialexpress.com.bd/print/vehicle-registration-witnesses-sharp-rise-since-fy16-1549802243
+2017,total,annual_new_FY,412573,"BRTA via FE: FY2016-17.",https://thefinancialexpress.com.bd/print/vehicle-registration-witnesses-sharp-rise-since-fy16-1549802243
+2017,motor_car,annual_new,21959,"BRTA via FE 19 Oct 2020: cars registered 2017.",https://thefinancialexpress.com.bd/trade/car-registration-marks-drastic-fall-brta-data-1603113131
+2018,total,annual_new_FY,468706,"BRTA via FE: FY2017-18.",https://thefinancialexpress.com.bd/print/vehicle-registration-witnesses-sharp-rise-since-fy16-1549802243
+2018,total,annual_new,497374,"BRTA via FE Feb 2020: calendar 2018 registrations (GFEI slide also cites 497374 as 'BRTA 2018').",https://mail.thefinancialexpress.com.bd/trade/motorised-vehicle-registration-witnesses-slight-rise-in-2019-1581231802?amp=true
+2018,motor_car,annual_new,18227,"BRTA via FE 19 Oct 2020.",https://thefinancialexpress.com.bd/trade/car-registration-marks-drastic-fall-brta-data-1603113131
+2018,truck,annual_new,12644,"CEIC (BRTA): truck registrations all-time high 2018.",https://www.ceicdata.com/en/bangladesh/motor-vehicle-registered
+2019,total,annual_new,504130,"BRTA via FE Feb 2020 (calendar 2019). Daily Star 9 Jan 2021 rounds to 4.97 lakh.",https://mail.thefinancialexpress.com.bd/trade/motorised-vehicle-registration-witnesses-slight-rise-in-2019-1581231802?amp=true
+2019,motorcycle,annual_new,406897,"BRTA via FE Feb 2020. Daily Star Jan 2021 rounds to 4 lakh.",https://mail.thefinancialexpress.com.bd/trade/motorised-vehicle-registration-witnesses-slight-rise-in-2019-1581231802?amp=true
+2019,motor_car,annual_new,16783,"BRTA via FE 19 Oct 2020.",https://thefinancialexpress.com.bd/trade/car-registration-marks-drastic-fall-brta-data-1603113131
+2019,truck,annual_new,5293,"BRTA via Daily Star 9 Jan 2021.",https://www.thedailystar.net/city/news/vehicle-registration-sees-sharp-decline-2025069
+2019,auto_rickshaw,annual_new,29807,"CEIC (BRTA): auto-rickshaw registrations all-time high 2019.",https://www.ceicdata.com/en/bangladesh/motor-vehicle-registered
+2020,total,annual_new,378000,"BRTA via Daily Star 9 Jan 2021: 3.78 lakh (rounded), -24.07% vs 2019.",https://www.thedailystar.net/city/news/vehicle-registration-sees-sharp-decline-2025069
+2020,motorcycle,annual_new,311000,"BRTA via Daily Star 9 Jan 2021: 3.11 lakh (rounded).",https://www.thedailystar.net/city/news/vehicle-registration-sees-sharp-decline-2025069
+2020,truck,annual_new,3900,"BRTA via Daily Star 9 Jan 2021.",https://www.thedailystar.net/city/news/vehicle-registration-sees-sharp-decline-2025069
+2020,total,cumulative_stock,4568000,"BRTA via Daily Star 9 Jan 2021: 45.68 lakh registered since independence (rounded).",https://www.thedailystar.net/city/news/vehicle-registration-sees-sharp-decline-2025069
+2021,motorcycle,cumulative_stock,4300000,"IRF World Road Statistics 2023 (via Wikipedia Transport in Bangladesh): ~4.3 million motorcycles 2021. Note: conflicts with BRTA Jan 2024 figure 4.34m, suggesting IRF counts differently.",https://en.wikipedia.org/wiki/Transport_in_Bangladesh
+2022,total,annual_new,578151,"CEIC (BRTA): all-time high annual registrations 2022.",https://www.ceicdata.com/en/bangladesh/motor-vehicle-registered
+2022,motorcycle,annual_new,506912,"CEIC (BRTA): all-time high 2022.",https://www.ceicdata.com/en/bangladesh/motor-vehicle-registered
+2022,motor_car,annual_new,16695,"CEIC (BRTA).",https://www.ceicdata.com/en/bangladesh/motor-vehicle-registered
+2022,auto_rickshaw,annual_new,7606,"CEIC (BRTA): all-time low 2022.",https://www.ceicdata.com/en/bangladesh/motor-vehicle-registered
+2022,bus,annual_new,2688,"CEIC (BRTA).",https://www.ceicdata.com/en/bangladesh/motor-vehicle-registered
+2022,truck,annual_new,4528,"CEIC (BRTA).",https://www.ceicdata.com/en/bangladesh/motor-vehicle-registered
+2022,total,cumulative_stock,5592000,"BRTA director quoted in Daily Star editorial 17 Jan 2023: 55.92 lakh vehicles in 2022.",https://www.thedailystar.net/opinion/editorial/news/misguided-approach-road-safety-3223371
+2023,total,annual_new,360861,"CEIC (BRTA) 2023; newsonair/TBS 4 Jan 2025 rounds to 3.61 lakh.",https://www.ceicdata.com/en/bangladesh/motor-vehicle-registered
+2023,motorcycle,annual_new,310418,"CEIC (BRTA).",https://www.ceicdata.com/en/bangladesh/motor-vehicle-registered
+2023,motor_car,annual_new,10784,"CEIC (BRTA).",https://www.ceicdata.com/en/bangladesh/motor-vehicle-registered
+2023,auto_rickshaw,annual_new,9257,"CEIC (BRTA).",https://www.ceicdata.com/en/bangladesh/motor-vehicle-registered
+2023,bus,annual_new,2280,"CEIC (BRTA).",https://www.ceicdata.com/en/bangladesh/motor-vehicle-registered
+2023,truck,annual_new,2292,"CEIC (BRTA).",https://www.ceicdata.com/en/bangladesh/motor-vehicle-registered
+2024,total,annual_new,307848,"CEIC (BRTA) 2024; newsonair 4 Jan 2025: 3.08 lakh, -14.69% vs 2023, decade low.",https://www.ceicdata.com/en/bangladesh/motor-vehicle-registered
+2024,motorcycle,annual_new,262000,"newsonair/TBS 4 Jan 2025: 2.62 lakh (rounded), lowest since 2015.",https://www.newsonair.gov.in/bangladesh-vehicle-registration-drops-15-to-a-decade-low-in-2024
+2024,total,cumulative_stock,6000000,"BRTA registered motor vehicles report 13 Feb 2024 (via Wikipedia): 'nearly 6 million' as of Jan 2024 (approximate).",https://en.wikipedia.org/wiki/Transport_in_Bangladesh
+2024,motorcycle,cumulative_stock,4340000,"BRTA Jan 2024 (via Wikipedia): 4.34 million; Daily Star Dec 2025 cites 43 lakh as of Jan 2024.",https://en.wikipedia.org/wiki/Transport_in_Bangladesh
+2024,private_car,cumulative_stock,410532,"BRTA Jan 2024 (via Wikipedia).",https://en.wikipedia.org/wiki/Transport_in_Bangladesh
+2024,microbus,cumulative_stock,121387,"BRTA Jan 2024 (via Wikipedia).",https://en.wikipedia.org/wiki/Transport_in_Bangladesh
+2025,motorcycle,cumulative_stock,4500000,"Daily Star 29 Dec 2025: 'nearly 45 lakh registered motorcycles' (approximate, undated).",https://www.thedailystar.net/supplements/long-ride/news/how-bangladesh-became-motorcycle-nation-4068976

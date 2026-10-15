@@ -1,0 +1,32 @@
+year,agency,road_class,length_km,source_url,note
+2006,RHD,national,3529,https://proceedings-paris2007.piarc.org/ressources/files/8/Presentation-TS4-4-HOSSAIN.pdf,Road Fund Establishment Office 2006 (PIARC 2007 paper)
+2006,RHD,regional,4127,https://proceedings-paris2007.piarc.org/ressources/files/8/Presentation-TS4-4-HOSSAIN.pdf,
+2006,RHD,zilla,13126,https://proceedings-paris2007.piarc.org/ressources/files/8/Presentation-TS4-4-HOSSAIN.pdf,
+2006,LGED,upazila,36166,https://proceedings-paris2007.piarc.org/ressources/files/8/Presentation-TS4-4-HOSSAIN.pdf,"17,889 km paved"
+2006,LGED,union,42329,https://proceedings-paris2007.piarc.org/ressources/files/8/Presentation-TS4-4-HOSSAIN.pdf,"8,515 km paved"
+2006,LGED,village,171335,https://proceedings-paris2007.piarc.org/ressources/files/8/Presentation-TS4-4-HOSSAIN.pdf,"7,583 km paved"
+1991,RHD,national,3163,https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,"paved 3,002 + unpaved 161 (JICA Matarbari access road EIA, Table 3.1-2)"
+1991,RHD,regional,2911,https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,"paved 2,262 + unpaved 649"
+1991,RHD,zilla,9596,https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,"paved 4,440 + unpaved 5,156"
+2007,RHD,national,3570,https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,"paved 3,485 + unpaved 85"
+2007,RHD,regional,4323,https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,"paved 4,117 + unpaved 206"
+2007,RHD,zilla,13678,https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,"paved 9,719 + unpaved 3,959"
+2011,RHD,national,3537,https://ewsdata.rightsindevelopment.org/files/documents/16/ADB-40540-016_cYNExBY.pdf,ADB 40540-016 sector assessment Table 2; 65% good-fair
+2011,RHD,regional,4275,https://ewsdata.rightsindevelopment.org/files/documents/16/ADB-40540-016_cYNExBY.pdf,46% good-fair
+2011,RHD,zilla,13458,https://ewsdata.rightsindevelopment.org/files/documents/16/ADB-40540-016_cYNExBY.pdf,25% good-fair
+2015,RHD,national,3813,https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,"paved 3,759 + unpaved 54; same figure in ADB 2016 table"
+2015,RHD,regional,4247,https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,"paved 4,043 + unpaved 204"
+2015,RHD,zilla,13242,https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,"paved 11,584 + unpaved 1,658"
+2021,RHD,national,3991,https://www.adb.org/sites/default/files/linked-documents/40540-019-ld-04.pdf,ADB 40540-019 sector assessment Table 3; 92% good-fair
+2021,RHD,regional,4898,https://www.adb.org/sites/default/files/linked-documents/40540-019-ld-04.pdf,88% good-fair
+2021,RHD,zilla,13589,https://www.adb.org/sites/default/files/linked-documents/40540-019-ld-04.pdf,"74% good-fair; total 22,478"
+2020,RHD,total,22096,https://www.thedailystar.net/frontpage/news/20pc-roads-sorry-state-1926745,"HDM survey Nov 2019-Mar 2020 (19,282 km surveyed; 18.6% poor-very bad)"
+"n.d. (RHD 'Road Network at a Glance', c.2015-2019)",RHD,national,3544.06,https://d10.dlca.logcluster.org/node/4469,WFP Logistics Capacity Assessment copy of RHD table
+"n.d. (RHD 'Road Network at a Glance', c.2015-2019)",RHD,regional,4280.02,https://d10.dlca.logcluster.org/node/4469,
+"n.d. (RHD 'Road Network at a Glance', c.2015-2019)",RHD,zilla,13659.13,https://d10.dlca.logcluster.org/node/4469,"total 21,483.21"
+"n.d. (Wikipedia, c.2023)",RHD,national,3990.75,https://en.wikipedia.org/wiki/List_of_roads_in_Bangladesh,"matches ADB 2021 figure (3,991)"
+"n.d. (Wikipedia, c.2023)",RHD,regional,4206.121,https://en.wikipedia.org/wiki/List_of_roads_in_Bangladesh,
+"n.d. (Wikipedia, c.2023)",RHD,zilla,13121.757,https://en.wikipedia.org/wiki/List_of_roads_in_Bangladesh,
+"n.d. (Wikipedia, c.2023)",LGED,upazila,37800,https://en.wikipedia.org/wiki/List_of_roads_in_Bangladesh,"page total network >375,000 km in 2023"
+"n.d. (Wikipedia, c.2023)",LGED,union,44750,https://en.wikipedia.org/wiki/List_of_roads_in_Bangladesh,
+"n.d. (Wikipedia, c.2023)",LGED,village,215750,https://en.wikipedia.org/wiki/List_of_roads_in_Bangladesh,

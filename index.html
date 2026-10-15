@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Deadly Roads: Bangladesh 2000–2025</title>
+<meta name="description" content="An independent, interactive analysis of 25 years of road crashes in Bangladesh: the reporting gap, where people die, the deadliest highway corridors, who dies, when, and on which class of road. Built from police, Jatri Kalyan Samity, Road Safety Foundation and WHO figures.">
+<meta property="og:title" content="Deadly Roads: Bangladesh 2000–2025">
+<meta property="og:description" content="25 years of road crashes in Bangladesh, from six public sources, in one interactive explorer.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="lib/maplibre-gl.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23262B30'/%3E%3Crect x='4' y='14' width='7' height='4' fill='%23F2B035'/%3E%3Crect x='13' y='14' width='7' height='4' fill='%23F2B035'/%3E%3Crect x='22' y='14' width='6' height='4' fill='%23F2B035'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="in">
+    <div class="brand">Deadly Roads <span>BD</span> 2000–2025</div>
+    <nav class="chapters" aria-label="Chapters">
+      <a href="#gap">The gap</a>
+      <a href="#where">Where</a>
+      <a href="#corridors">Corridors</a>
+      <a href="#who">Who</a>
+      <a href="#when">When</a>
+      <a href="#roads">Road class</a>
+      <a href="#method">Method</a>
+    </nav>
+    <a class="gh" href="https://github.com/ahasan722/bangladesh-road-crashes-2000-2025">GitHub</a>
+  </div>
+</div>
+
+<section class="hero" id="top">
+  <div class="road" aria-hidden="true"><svg id="heroRoad" preserveAspectRatio="none"></svg></div>
+  <div class="in">
+    <h1>Every day, about twenty people in Bangladesh leave home and die on the road.</h1>
+    <p class="lede">Twenty-five years of crash records from the police, two media-monitoring groups and the WHO disagree with each other by a factor of six. This explorer puts all of them on the same axis, maps where the deaths cluster, walks the deadliest highways kilometre by kilometre, and asks who dies, when, and on which roads.</p>
+    <div class="meta" id="heroMeta"></div>
+  </div>
+</section>
+<div class="kerb"></div>
+
+<!-- 1. THE GAP -->
+<section class="chapter" id="gap">
+  <div class="in">
+    <header>
+      <div><span class="kick">Chapter 1</span><h2>Nobody agrees how many die</h2></div>
+      <p>Police count first-information reports. Jatri Kalyan Samity and the Road Safety Foundation count what newspapers print. The WHO models the total from health data. Toggle the sources and watch the same country produce four different death tolls.</p>
+    </header>
+    <div class="chartbox">
+      <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between;margin-bottom:8px">
+        <div class="chips" id="gapSources"></div>
+        <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+          <div class="seg" id="gapMeasure"><button data-v="deaths" class="on">Deaths</button><button data-v="accidents">Crashes</button><button data-v="injuries">Injuries</button><button data-v="rate">Deaths per 100k</button></div>
+          <div class="seg" id="gapScale"><button data-v="linear" class="on">Linear</button><button data-v="log">Log</button></div>
+        </div>
+      </div>
+      <div id="gapChart"></div>
+      <div class="tip" id="gapTip"></div>
+    </div>
+    <p class="takeaway" id="gapTakeaway"></p>
+    <p class="note" id="gapNote"></p>
+  </div>
+</section>
+<div class="kerb"></div>
+
+<!-- 2. WHERE -->
+<section class="chapter" id="where">
+  <div class="in">
+    <header>
+      <div><span class="kick">Chapter 2</span><h2>Where the deaths are</h2></div>
+      <p>Which division's roads produce the crashes, from every 8-division table the Road Safety Foundation has published since 2022, pooled or one period at a time. Switch the layer to see which districts hold the listed hazardous locations.</p>
+    </header>
+    <div class="explorer">
+      <div class="rail">
+        <div class="ctl"><span class="lbl">Measure</span>
+          <div class="seg" id="whereMeasure"><button data-v="deaths" class="on">Deaths</button><button data-v="rate">Per 100k</button><button data-v="accidents">Crashes</button></div>
+        </div>
+        <div class="ctl"><span class="lbl">Period</span>
+          <div class="playrow"><button class="btn" id="wherePlay">Play</button><div class="yearbig num" id="whereYear"></div></div>
+          <input type="range" class="range" id="whereSlider" aria-label="Year">
+        </div>
+        <div class="ctl"><span class="lbl">Layer</span><select id="whereSource"></select></div>
+        <div class="stats" id="whereStats"></div>
+        <div class="legend" id="whereLegend"></div>
+        <p class="note" id="whereNote" style="margin-top:4px"></p>
+      </div>
+      <div class="stage">
+        <div class="map" id="whereMap"></div>
+        <div class="hoverpanel" id="wherePanel"></div>
+      </div>
+    </div>
+    <p class="takeaway" id="whereTakeaway"></p>
+  </div>
+</section>
+<div class="kerb"></div>
+
+<!-- 3. CORRIDORS -->
+<section class="chapter" id="corridors">
+  <div class="in">
+    <header>
+      <div><span class="kick">Chapter 3</span><h2>Walk the deadliest highways</h2></div>
+      <p>Pick a national highway. The ribbon beside the road rises where police, RHD, researchers and the Road Safety Foundation have listed accident-prone locations, binned every few kilometres along the real OpenStreetMap alignment. Hover a bar to light up that stretch and read what was listed there. Switch to 3D to see the ribbon as a wall.</p>
+    </header>
+    <div class="explorer">
+      <div class="rail">
+        <div class="ctl"><span class="lbl">Highway</span><div class="chips" id="corrList"></div></div>
+        <div class="ctl"><span class="lbl">Bin size</span>
+          <div class="seg" id="corrBin"><button data-v="5">5 km</button><button data-v="10" class="on">10 km</button><button data-v="20">20 km</button></div>
+        </div>
+        <div class="ctl"><span class="lbl">Show</span>
+          <div class="chips" id="corrLayers">
+            <button class="chip on" data-v="reports">Reported crashes</button>
+            <button class="chip on" data-v="blackspots">Blackspots</button>
+          </div>
+        </div>
+        <div class="ctl"><span class="lbl">Lists published in</span><div class="chips" id="corrYears"></div></div>
+        <div class="ctl"><button class="btn" id="corr3d">3D</button></div>
+        <div class="stats" id="corrStats"></div>
+        <div class="legend" id="corrLegend"></div>
+      </div>
+      <div class="stage">
+        <div class="map" id="corrMap"></div>
+        <canvas class="chartoverlay" id="corrCanvas"></canvas>
+        <div class="corridorbadge" id="corrBadge"></div>
+        <div class="hoverpanel" id="corrPanel"></div>
+      </div>
+    </div>
+    <p class="note" id="corrNote"></p>
+    <p class="takeaway" id="corrTakeaway"></p>
+  </div>
+</section>
+<div class="kerb"></div>
+
+<!-- 4. WHO -->
+<section class="chapter" id="who">
+  <div class="in">
+    <header>
+      <div><span class="kick">Chapter 4</span><h2>Who dies</h2></div>
+      <p>Deaths by who the victim was, from the Road Safety Foundation's annual counts. The motorcycle line is the story of the decade. Click a category to hide or show it; hover a point for the share of all deaths that year.</p>
+    </header>
+    <div class="chartbox">
+      <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between;margin-bottom:8px">
+        <div class="chips" id="whoCats"></div>
+        <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+          <div class="seg" id="whoMode"><button data-v="stack" class="on">Stacked</button><button data-v="share">Share</button><button data-v="lines">Lines</button></div>
+          <select id="whoSource" aria-label="Source"></select>
+        </div>
+      </div>
+      <div id="whoChart"></div>
+      <div class="tip" id="whoTip"></div>
+    </div>
+    <div class="two" style="margin-top:18px">
+      <div class="chartbox"><h3>Victims</h3><div class="sub">Share of deaths by who the victim was, latest year published</div><div id="whoVictim"></div></div>
+      <div class="chartbox"><h3>How crashes happen</h3><div class="sub">Share of crashes by collision type, latest year published</div><div id="whoCollision"></div></div>
+    </div>
+    <p class="takeaway" id="whoTakeaway"></p>
+    <p class="note" id="whoNote"></p>
+  </div>
+</section>
+<div class="kerb"></div>
+
+<!-- 5. WHEN -->
+<section class="chapter" id="when">
+  <div class="in">
+    <header>
+      <div><span class="kick">Chapter 5</span><h2>When</h2></div>
+      <p>Hour of day, month of year, and the two Eid exoduses. Drag the dial handles to select a window of the day and the share of crashes updates; the month strip shows the monthly count across years.</p>
+    </header>
+    <div class="explorer when">
+      <div class="rail">
+        <svg class="dial" id="whenDial" viewBox="0 0 300 300" role="img" aria-label="Time of day dial"></svg>
+        <div class="stats" id="whenStats"></div>
+        <div class="ctl"><span class="lbl">Year</span><select id="whenYear"></select></div>
+      </div>
+      <div class="stage" style="min-height:420px;padding:18px">
+        <div id="whenHours"></div>
+        <div id="whenMonths" style="margin-top:18px"></div>
+        <div class="tip" id="whenTip"></div>
+      </div>
+    </div>
+    <div class="chartbox" style="margin-top:18px"><h3>Eid on the road</h3><div class="sub">Deaths counted by the Road Safety Foundation in each Eid travel window, with the daily average outside Eid for comparison</div><div id="whenEid"></div></div>
+    <p class="takeaway" id="whenTakeaway"></p>
+    <p class="note" id="whenNote"></p>
+  </div>
+</section>
+<div class="kerb"></div>
+
+<!-- 6. ROAD CLASS -->
+<section class="chapter" id="roads">
+  <div class="in">
+    <header>
+      <div><span class="kick">Chapter 6</span><h2>Which roads</h2></div>
+      <p>National highways carry the long-distance buses and trucks; regional highways and feeder roads carry the motorcycles, easy-bikes and nosimons. The share of crashes on each class, by year and by source, set against how many kilometres of each class the country has.</p>
+    </header>
+    <div class="two">
+      <div class="chartbox"><h3>Share of crashes by road class</h3><div class="sub" id="roadsSub"></div><div class="chips" id="roadsSources" style="margin-bottom:8px"></div><div id="roadsChart"></div><div class="tip" id="roadsTip"></div></div>
+      <div class="chartbox"><h3>Kilometres of road by class</h3><div class="sub">Roads and Highways Department and LGED network, latest published figures</div><div id="roadsNetwork"></div></div>
+    </div>
+    <div class="chartbox" style="margin-top:18px"><h3>Crash share relative to network share</h3><div class="sub">A source's share of crashes divided by the class's share of road kilometres. Above 1 means the class produces more crashes than its length alone would predict</div><div id="roadsIntensity"></div></div>
+    <p class="takeaway" id="roadsTakeaway"></p>
+    <p class="note" id="roadsNote"></p>
+  </div>
+</section>
+<div class="kerb"></div>
+
+<!-- 7. METHOD -->
+<section class="chapter" id="method">
+  <div class="in">
+    <header>
+      <div><span class="kick">Chapter 7</span><h2>Method, sources, limits</h2></div>
+      <p>Everything on this page comes from documents anyone can download. Nothing is modelled or interpolated by me. Where sources disagree, both are shown. Where data does not exist, the chart says so instead of pretending.</p>
+    </header>
+    <div id="methodSources"></div>
+    <div class="disclaimer" id="disclaimer">
+      <h3>Read this before you quote a number</h3>
+      <ul>
+        <li>This is an independent learning project by one person. It is not a product of, endorsed by, or affiliated with the Bangladesh Police, BRTA, the Roads and Highways Department, LGED, ARI-BUET, Bangladesh Jatri Kalyan Samity, the Road Safety Foundation, the WHO, or my employer.</li>
+        <li>All figures are secondary data copied from published reports and press coverage of them. Transcription errors are possible; every number links to its source so you can check.</li>
+        <li>Police figures count registered cases. Jatri Kalyan Samity and Road Safety Foundation figures count crashes reported in the media. WHO figures are statistical estimates. They measure different things and should never be added together or compared without that caveat.</li>
+        <li>The highway corridor view counts hazardous locations listed by RHD, the Highway Police, ARI-BUET researchers and the Road Safety Foundation, located to the nearest named place or, where nothing finer was published, the upazila. It shows where lists cluster. It does not show crashes per vehicle-kilometre, and absence of a bar does not mean a stretch is safe.</li>
+        <li>Highway alignments come from OpenStreetMap (trunk and primary roads). Kilometre positions are measured along that line and will differ from RHD chainage by a few kilometres.</li>
+        <li>No individual crash, victim or vehicle is identified anywhere on this page.</li>
+        <li>Free to reuse with attribution (CC BY 4.0 for this page and the cleaned data; original sources keep their own terms).</li>
+      </ul>
+    </div>
+    <div class="dl" id="downloads"></div>
+  </div>
+</section>
+
+<footer><div class="in">
+  <div>Built by Abid Hasan, Dhaka. Data pipeline in Python, page in MapLibre GL and D3, basemap from geoBoundaries and Natural Earth, type set in Open Sans. Source code and data on <a href="https://github.com/ahasan722/bangladesh-road-crashes-2000-2025">GitHub</a>.</div>
+  <div style="margin-top:8px" id="buildStamp"></div>
+</div></footer>
+
+<script src="lib/maplibre-gl.js"></script>
+<script src="lib/d3.min.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

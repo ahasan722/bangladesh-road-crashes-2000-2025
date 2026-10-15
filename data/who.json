@@ -1,0 +1,243 @@
+{
+"rsf_totals_deaths": {
+"2020": 5431.0,
+"2021": 6284.0,
+"2022": 7713.0,
+"2023": 6524.0,
+"2024": 7294.0,
+"2025": 7359.0
+},
+"rsf_totals_accidents": {
+"2020": 4735.0,
+"2021": 5371.0,
+"2022": 6829.0,
+"2023": 6911.0,
+"2024": 6927.0,
+"2025": 7584.0
+},
+"victims": {
+"2020": {
+"women": 871.0,
+"children": 649.0,
+"pedestrian": 1512.0,
+"drivers_helpers": 683.0
+},
+"2021": {
+"women": 927.0,
+"children": 734.0,
+"pedestrian": 1523.0,
+"drivers_helpers": 798.0
+},
+"2022": {
+"women": 1061.0,
+"children": 1143.0,
+"students": 1237.0
+},
+"2023": {
+"women": 974.0,
+"children": 1128.0
+},
+"2024": {
+"women": 893.0,
+"children": 1152.0,
+"pedestrian": 1535.0,
+"drivers_helpers": 984.0
+},
+"2025": {
+"women": 962.0,
+"children": 1008.0,
+"pedestrian": 1564.0,
+"motorcycle": 2671.0,
+"working_age_18_65": 5723.0
+}
+},
+"veh_counts": {
+"2020": {
+"motorcycle": 1463.0
+},
+"2021": {
+"motorcycle": 2214.0
+},
+"2022": {
+"motorcycle": 3091.0
+},
+"2023": {
+"motorcycle": 2487.0
+},
+"2024": {
+"motorcycle": 2609.0,
+"three_wheeler": 1392.0,
+"truck_pickup_goods": 499.0,
+"bus": 369.0,
+"car_microbus": 363.0,
+"local_vehicle": 331.0,
+"bicycle_rickshaw": 196.0
+},
+"2025": {
+"motorcycle": 2671.0
+}
+},
+"veh_share": {
+"2020": {
+"motorcycle": 26.93
+},
+"2021": {
+"motorcycle": 36.38
+},
+"2023": {
+"motorcycle": 16.0,
+"local_three_wheeler": 7.0,
+"bus_truck_car_combined": 40.0
+},
+"2024": {
+"motorcycle": 39.85,
+"three_wheeler": 19.08,
+"truck_pickup_goods": 6.84,
+"bus": 5.05,
+"car_microbus": 4.97,
+"local_vehicle": 4.53,
+"bicycle_rickshaw": 2.68
+},
+"2025": {
+"motorcycle": 39.93
+}
+},
+"moto_accidents": {
+"2020": {
+"motorcycle": 1378.0
+},
+"2021": {
+"motorcycle": 2078.0
+},
+"2023": {
+"motorcycle": 2532.0
+},
+"2024": {
+"motorcycle": 2761.0
+},
+"2025": {
+"motorcycle": 3029.0
+}
+},
+"bjks_moto_deaths": {
+"2023": 2152.0,
+"2024": 2570.0
+},
+"bjks_victims": {
+"2019": {
+"drivers": 989.0,
+"transport_workers": 844.0,
+"students": 809.0,
+"law_enforcement": 216.0,
+"political_activists": 153.0,
+"teachers": 115.0,
+"journalists": 36.0,
+"physicians": 26.0
+},
+"2022": {
+"women": 1150.0,
+"children": 794.0
+},
+"2023": {
+"drivers": 1526.0,
+"women": 647.0,
+"pedestrian": 968.0,
+"children": 466.0,
+"students": 416.0,
+"transport_workers": 260.0,
+"law_enforcement": 73.0,
+"political_activists": 77.0,
+"teachers": 81.0,
+"doctors": 32.0,
+"journalists": 15.0,
+"engineers": 8.0,
+"freedom_fighters": 13.0,
+"lawyers": 7.0,
+"physicians": 22.0
+}
+},
+"collision_pooled_rsf": {
+"head_on": 1460.0,
+"hit_pedestrian": 1484.0,
+"lost_control": 3024.0,
+"other": 117.0,
+"rear_end": 688.0
+},
+"collision_months": [
+"2023-02",
+"2023-06",
+"2023-07",
+"2024-02",
+"2024-10",
+"2025-01",
+"2025-02",
+"2025-03",
+"2025-07",
+"2025-09",
+"2026-06",
+"2026-07",
+"2026-08",
+"2026-09"
+],
+"collision_bjks": {
+"2019": {
+"hit_pedestrian": 56.0,
+"head_on": 18.38,
+"lost_control_ditch": 18.07
+},
+"2023": {
+"hit_pedestrian": 52.83,
+"head_on": 20.5,
+"lost_control_ditch": 14.29,
+"train_vehicle": 0.68,
+"clothing_in_wheel": 0.27
+}
+},
+"sources": [
+"https://bdnews24.com/bangladesh/3fa3811aa635",
+"https://bdnews24.com/bangladesh/5e6010dd20b6",
+"https://bdnews24.com/bangladesh/f02d0595c9ee",
+"https://bdnews24.com/bangladesh/pwh9c85xxr",
+"https://en.ittefaq.com.bd/9582/469-dead-837-injured-in-oct-road-crashes-in",
+"https://en.prothomalo.com/bangladesh/3f7xzpme5e",
+"https://en.prothomalo.com/bangladesh/accident/35tuiqg3oi",
+"https://en.prothomalo.com/bangladesh/accident/fb1tip4hiv",
+"https://en.prothomalo.com/bangladesh/accident/nr3n0krxfx",
+"https://en.prothomalo.com/bangladesh/city/p07evttpqj",
+"https://en.prothomalo.com/bangladesh/m4kzejfpvx",
+"https://mail.thefinancialexpress.com.bd/national/bangladesh-road-deaths-hit-eight-year-high-in-2022-1672642851?amp=true",
+"https://old.thefinancialexpress.com.bd/national/incidents-of-road-accidents-fatalities-jumped-in-2022-1673077056",
+"https://old.thefinancialexpress.com.bd/national/road-crashes-took-5431-lives-last-year-says-report-1610100641",
+"https://tds-images.thedailystar.net/news/bangladesh/news/road-accidents-kill-over-8500-2024-3791541",
+"https://thefinancialexpress.com.bd/national/bd-sees-621-road-accidents-in-jan-608-people-killed",
+"https://thefinancialexpress.com.bd/national/road-accidents-rise-60pc-deaths-36pc-in-five-years",
+"https://unb.com.bd/category/Bangladesh/14-deaths-a-day-as-423-killed-in-road-crashes-in-september-rsf/196955",
+"https://unb.com.bd/category/Bangladesh/487-deaths-in-439-road-accidents-in-feb-road-safety-foundation/111468",
+"https://unb.com.bd/category/Bangladesh/516-deaths-in-559-road-accidents-in-june-road-safety-foundation/118647",
+"https://unb.com.bd/category/Bangladesh/532-road-accidents-kill-463-in-june-jatri-kalyan-samity/190598",
+"https://unb.com.bd/category/Bangladesh/bangladeshs-roads-remain-deadly-416-killed-in-july-alone/192431",
+"https://unb.com.bd/category/Bangladesh/over-15700-killed-in-motorbike-crashes-young-people-make-up-58pc-rsf/192563",
+"https://unb.com.bd/category/Bangladesh/perilous-roads-in-bangladesh-6284-killed-in-2021-rsf/85512",
+"https://unb.com.bd/category/Bangladesh/road-fatalities-in-bangladesh-8543-lost-lives-in-2024/150389",
+"https://unb.com.bd/category/bangladesh/57-children-among-487-killed-in-january-road-crashes-in-bangladesh-rsf/179885",
+"https://www.dhakatribune.com/bangladesh/298626/report-motorcycle-accidents-killed-19.28%25-more",
+"https://www.dhakatribune.com/bangladesh/299745/report-554-killed-in-road-accidents-in-november",
+"https://www.dhakatribune.com/bangladesh/304218/report-january-saw-585-deaths-from-593-road",
+"https://www.dhakatribune.com/bangladesh/336755/report-bangladesh-saw-7-902-road-fatalities-last",
+"https://www.dhakatribune.com/bangladesh/337884/report-over-1-100-children-killed-in-road",
+"https://www.dhakatribune.com/bangladesh/375738/road-accident-596-crashes-claim-578-lives-in-last",
+"https://www.dhakatribune.com/bangladesh/378096/eid-holiday-turns-deadly-over-249-lives-lost-in",
+"https://www.dhakatribune.com/bangladesh/378229/passenger-welfare-association-322-killed-in-315",
+"https://www.dhakatribune.com/bangladesh/378488/road-crashes-claim-604-lives-in-march",
+"https://www.dhakatribune.com/bangladesh/384402/report-road-accidents-in-bangladesh-nearly-double",
+"https://www.dhakatribune.com/bangladesh/389368/rsf-report-47-students-among-418-killed-in-road",
+"https://www.dhakatribune.com/bangladesh/411719/rsf-281-killed-in-road-crashes-during-eid-travel",
+"https://www.jagonews24.com/en/national/news/94027",
+"https://www.observerbd.com/news/529400",
+"https://www.tbsnews.net/node/646738",
+"https://www.tbsnews.net/node/678302",
+"https://www.tbsnews.net/node/808498",
+"https://www.thedailystar.net/backpage/road-accident-in-bangladeh-21-died-every-day-1852867",
+"https://www.thedailystar.net/opinion/editorial/news/safe-roads-smart-cities-3216316"
+]
+}

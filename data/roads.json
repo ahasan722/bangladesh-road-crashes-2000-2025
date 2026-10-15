@@ -1,0 +1,1132 @@
+{
+"shares": [
+{
+"source": "BJKS",
+"period": "2014_to_2024-09",
+"label": "2014 to 2024-09",
+"year": "2014-2024",
+"shares": {
+"Feeder / rural road": 22.54,
+"National highway": 31.76,
+"Regional highway": 37.59
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/362619/bangladesh-sees-60-980-road-accidents-killing"
+]
+},
+{
+"source": "BJKS",
+"period": "2023-01",
+"label": "Jan 2023",
+"year": "2023",
+"shares": {
+"City road": 6.3999999999999995,
+"Feeder / rural road": 24.45,
+"National highway": 29.51,
+"Other": 1.01,
+"Regional highway": 38.61
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/304218/report-january-saw-585-deaths-from-593-road"
+]
+},
+{
+"source": "BJKS",
+"period": "2024-01",
+"label": "Jan 2024",
+"year": "2024",
+"shares": {
+"City road": 6.7,
+"Feeder / rural road": 41.48,
+"National highway": 33.97,
+"Other": 0.34,
+"Regional highway": 17.8
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/340314/report-road-accidents-claimed-486-lives-in"
+]
+},
+{
+"source": "BJKS",
+"period": "2025-05",
+"label": "May 2025",
+"year": "2025",
+"shares": {
+"City road": 5.01,
+"Feeder / rural road": 28.14,
+"National highway": 33.5,
+"Other": 0.5,
+"Regional highway": 32.83
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/383639/jatri-kalyan-samity-may-sees-614-road-fatalities"
+]
+},
+{
+"source": "BJKS",
+"period": "2026-06",
+"label": "Jun 2026",
+"year": "2026",
+"shares": {
+"City road": 5.06,
+"Feeder / rural road": 20.67,
+"National highway": 44.73,
+"Other": 1.12,
+"Regional highway": 28.38
+},
+"sources": [
+"https://unb.com.bd/category/Bangladesh/532-road-accidents-kill-463-in-june-jatri-kalyan-samity/190598"
+]
+},
+{
+"source": "BJKS",
+"period": "annual",
+"label": "2019",
+"year": "2019",
+"shares": {
+"City road": 7.405,
+"Feeder / rural road": 20.56,
+"National highway": 31.646666666666665,
+"Other": 0.99,
+"Regional highway": 39.31333333333333
+},
+"sources": [
+"https://bdnews24.com/bangladesh/pwh9c85xxr",
+"https://unb.com.bd/category/Bangladesh/bangladesh-sees-9951-road-accident-deaths-in-2022-highest-in-8yrs-report/107517",
+"https://www.thedailystar.net/backpage/road-accident-in-bangladeh-21-died-every-day-1852867"
+]
+},
+{
+"source": "BJKS",
+"period": "eid_azha_2025",
+"label": "Eid-ul-Azha 2025",
+"year": "2025",
+"shares": {
+"City road": 5.2700000000000005,
+"Feeder / rural road": 28.49,
+"National highway": 37.2,
+"Other": 0.79,
+"Regional highway": 28.23
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/383925/390-killed-in-15-days-of-eid-travel-motorbikes"
+]
+},
+{
+"source": "BJKS",
+"period": "eid_fitr_2025",
+"label": "Eid-ul-Fitr 2025",
+"year": "2025",
+"shares": {
+"City road": 4.12,
+"Feeder / rural road": 34.6,
+"National highway": 38.41,
+"Other": 1.58,
+"Regional highway": 21.26
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/378229/passenger-welfare-association-322-killed-in-315"
+]
+},
+{
+"source": "RSF",
+"period": "2019-01_to_2024-06",
+"label": "Jan 2019 to Jun 2024",
+"year": "2019-2024",
+"shares": {
+"City road": 12.14,
+"National highway": 36.48,
+"Other": 0.17,
+"Regional highway": 35.73,
+"Feeder / rural road": 15.46
+},
+"sources": [
+"https://thefinancialexpress.com.bd/national/over-35000-killed-53000-injured-rsf"
+]
+},
+{
+"source": "RSF",
+"period": "2020_to_2026-07",
+"label": "2020 to 2026-07",
+"year": "2020-2026",
+"shares": {
+"City road": 16.47,
+"National highway": 29.71,
+"Regional highway": 41.63,
+"Feeder / rural road": 12.18
+},
+"sources": [
+"https://unb.com.bd/category/Bangladesh/over-15700-killed-in-motorbike-crashes-young-people-make-up-58pc-rsf/192563"
+]
+},
+{
+"source": "RSF",
+"period": "2022-05",
+"label": "May 2022",
+"year": "2022",
+"shares": {
+"City road": 8.71,
+"National highway": 41.09,
+"Regional highway": 36.17,
+"Feeder / rural road": 14.0
+},
+"sources": [
+"https://today.thefinancialexpress.com.bd/print/641-killed-in-528-crashes-in-may-1654538899"
+]
+},
+{
+"source": "RSF",
+"period": "2023-02",
+"label": "Feb 2023",
+"year": "2023",
+"shares": {
+"City road": 6.6,
+"National highway": 38.26,
+"Regional highway": 40.31,
+"Feeder / rural road": 13.89
+},
+"sources": [
+"https://unb.com.bd/category/Bangladesh/487-deaths-in-439-road-accidents-in-feb-road-safety-foundation/111468"
+]
+},
+{
+"source": "RSF",
+"period": "2023-06",
+"label": "Jun 2023",
+"year": "2023",
+"shares": {
+"City road": 0.53,
+"National highway": 32.55,
+"Regional highway": 44.18,
+"Feeder / rural road": 10.55
+},
+"sources": [
+"https://unb.com.bd/category/Bangladesh/516-deaths-in-559-road-accidents-in-june-road-safety-foundation/118647"
+]
+},
+{
+"source": "RSF",
+"period": "2023-07",
+"label": "Jul 2023",
+"year": "2023",
+"shares": {
+"City road": 8.21,
+"National highway": 40.7,
+"Other": 0.78,
+"Regional highway": 38.35,
+"Feeder / rural road": 11.93
+},
+"sources": [
+"https://www.tbsnews.net/node/678302"
+]
+},
+{
+"source": "RSF",
+"period": "2023-09",
+"label": "Sep 2023",
+"year": "2023",
+"shares": {
+"City road": 5.52,
+"National highway": 34.92,
+"Other": 1.25,
+"Regional highway": 45.97,
+"Feeder / rural road": 12.31
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/327393/report-394-lives-lost-on-roads-across-bangladesh"
+]
+},
+{
+"source": "RSF",
+"period": "2023-11",
+"label": "Nov 2023",
+"year": "2023",
+"shares": {
+"City road": 6.09,
+"National highway": 34.56,
+"Other": 1.47,
+"Regional highway": 42.88,
+"Feeder / rural road": 14.97
+},
+"sources": [
+"https://unb.com.bd/category/Bangladesh/467-lives-lost-on-roads-across-country-in-nov-road-safety-foundation/127181"
+]
+},
+{
+"source": "RSF",
+"period": "2024-01_to_2024-09",
+"label": "Jan 2024 to Sep 2024",
+"year": "2024",
+"shares": {
+"City road": 12.21,
+"National highway": 33.71,
+"Other": 1.11,
+"Regional highway": 38.9,
+"Feeder / rural road": 14.05
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/362548/report-over-5-500-lives-lost-on-roads-in-9-months"
+]
+},
+{
+"source": "RSF",
+"period": "2024-02",
+"label": "Feb 2024",
+"year": "2024",
+"shares": {
+"City road": 12.34,
+"National highway": 29.67,
+"Other": 1.88,
+"Regional highway": 40.13,
+"Feeder / rural road": 15.95
+},
+"sources": [
+"https://www.tbsnews.net/node/808498"
+]
+},
+{
+"source": "RSF",
+"period": "2024-10",
+"label": "Oct 2024",
+"year": "2024",
+"shares": {
+"City road": 8.57,
+"National highway": 39.05,
+"Other": 1.35,
+"Regional highway": 36.56,
+"Feeder / rural road": 14.44
+},
+"sources": [
+"https://en.ittefaq.com.bd/9582/469-dead-837-injured-in-oct-road-crashes-in"
+]
+},
+{
+"source": "RSF",
+"period": "2025-01",
+"label": "Jan 2025",
+"year": "2025",
+"shares": {
+"City road": 6.76,
+"National highway": 34.46,
+"Other": 0.64,
+"Regional highway": 42.67,
+"Feeder / rural road": 15.45
+},
+"sources": [
+"https://en.prothomalo.com/bangladesh/rzlxsq34sz"
+]
+},
+{
+"source": "RSF",
+"period": "2025-02",
+"label": "Feb 2025",
+"year": "2025",
+"shares": {
+"City road": 7.71,
+"National highway": 35.06,
+"Regional highway": 44.96,
+"Feeder / rural road": 12.24
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/375738/road-accident-596-crashes-claim-578-lives-in-last"
+]
+},
+{
+"source": "RSF",
+"period": "2025-09",
+"label": "Sep 2025",
+"year": "2025",
+"shares": {
+"City road": 19.95,
+"National highway": 36.09,
+"Regional highway": 31.16,
+"Feeder / rural road": 12.78
+},
+"sources": [
+"https://bdnews24.com/bangladesh/5e6010dd20b6"
+]
+},
+{
+"source": "RSF",
+"period": "2026-01",
+"label": "Jan 2026",
+"year": "2026",
+"shares": {
+"City road": 18.42,
+"National highway": 27.9,
+"Regional highway": 37.03,
+"Feeder / rural road": 15.2
+},
+"sources": [
+"https://unb.com.bd/category/bangladesh/57-children-among-487-killed-in-january-road-crashes-in-bangladesh-rsf/179885"
+]
+},
+{
+"source": "RSF",
+"period": "2026-06",
+"label": "Jun 2026",
+"year": "2026",
+"shares": {
+"City road": 12.07,
+"National highway": 32.0,
+"Other": 1.27,
+"Regional highway": 41.1,
+"Feeder / rural road": 13.55
+},
+"sources": [
+"https://bdnews24.com/bangladesh/9a8381f35de8"
+]
+},
+{
+"source": "RSF",
+"period": "2026-07",
+"label": "Jul 2026",
+"year": "2026",
+"shares": {
+"City road": 14.41,
+"National highway": 36.89,
+"Regional highway": 33.84,
+"Feeder / rural road": 13.31
+},
+"sources": [
+"https://unb.com.bd/category/Bangladesh/bangladeshs-roads-remain-deadly-416-killed-in-july-alone/192431"
+]
+},
+{
+"source": "RSF",
+"period": "2026-08",
+"label": "Aug 2026",
+"year": "2026",
+"shares": {
+"City road": 13.84,
+"National highway": 31.77,
+"Regional highway": 42.3,
+"Feeder / rural road": 12.08
+},
+"sources": [
+"https://unb.com.bd/category/Bangladesh/road-crashes-claim-481-lives-in-august-alone/194804"
+]
+},
+{
+"source": "RSF",
+"period": "2026-09",
+"label": "Sep 2026",
+"year": "2026",
+"shares": {
+"City road": 14.25,
+"National highway": 32.8,
+"Regional highway": 40.27,
+"Feeder / rural road": 12.66
+},
+"sources": [
+"https://unb.com.bd/category/Bangladesh/14-deaths-a-day-as-423-killed-in-road-crashes-in-september-rsf/196955"
+]
+},
+{
+"source": "RSF",
+"period": "annual",
+"label": "2023",
+"year": "2023",
+"shares": {
+"City road": 11.31,
+"National highway": 34.0,
+"Regional highway": 38.245000000000005,
+"Feeder / rural road": 14.0
+},
+"sources": [
+"https://en.prothomalo.com/bangladesh/accident/fb1tip4hiv",
+"https://thefinancialexpress.com.bd/home/tk-218-billion-human-resources-lost-as-7294-killed-rsf"
+]
+},
+{
+"source": "RSF",
+"period": "eid_azha_2025",
+"label": "Eid-ul-Azha 2025",
+"year": "2025",
+"shares": {
+"National highway": 39.19,
+"Other": 16.13,
+"Regional highway": 34.87
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/384402/report-road-accidents-in-bangladesh-nearly-double"
+]
+},
+{
+"source": "RSF",
+"period": "eid_azha_2026",
+"label": "Eid-ul-Azha 2026",
+"year": "2026",
+"shares": {
+"City road": 12.67,
+"National highway": 33.21,
+"Other": 1.36,
+"Regional highway": 38.35,
+"Feeder / rural road": 14.38
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/411719/rsf-281-killed-in-road-crashes-during-eid-travel"
+]
+},
+{
+"source": "RSF",
+"period": "eid_fitr_2025",
+"label": "Eid-ul-Fitr 2025",
+"year": "2025",
+"shares": {
+"City road": 11.28,
+"National highway": 33.85,
+"Regional highway": 38.13,
+"Feeder / rural road": 16.73
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/378096/eid-holiday-turns-deadly-over-249-lives-lost-in"
+]
+},
+{
+"source": "RSF",
+"period": "unknown-05",
+"label": "unknown-05",
+"year": "unknown",
+"shares": {
+"City road": 9.77,
+"National highway": 33.6,
+"Other": 0.81,
+"Regional highway": 40.93,
+"Feeder / rural road": 14.86
+},
+"sources": [
+"https://www.tbsnews.net/node/646738"
+]
+}
+],
+"monthly_counts": [
+{
+"period": "2020-08",
+"label": "Aug 2020",
+"counts": {
+"National highway": 113.0,
+"Regional highway": 98.0
+},
+"sources": [
+"https://en.prothomalo.com/bangladesh/road-accidents-claim-379-lives-in-august"
+]
+},
+{
+"period": "2021-01",
+"label": "Jan 2021",
+"counts": {
+"National highway": 153.0,
+"Other": 11.0,
+"Regional highway": 107.0
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/237902/road-crashes-kill-484-in-january"
+]
+},
+{
+"period": "2022-05",
+"label": "May 2022",
+"counts": {
+"City road": 46.0,
+"National highway": 217.0,
+"Regional highway": 191.0,
+"Feeder / rural road": 74.0
+},
+"sources": [
+"https://today.thefinancialexpress.com.bd/print/641-killed-in-528-crashes-in-may-1654538899"
+]
+},
+{
+"period": "2022-06",
+"label": "Jun 2022",
+"counts": {
+"City road": 56.0,
+"National highway": 159.0,
+"Other": 6.0,
+"Regional highway": 174.0,
+"Feeder / rural road": 72.0
+},
+"sources": [
+"https://unb.com.bd/category/bangladesh/road-crashes-claim-524-lives-in-june/96260"
+]
+},
+{
+"period": "2022-07",
+"label": "Jul 2022",
+"counts": {
+"City road": 64.0,
+"National highway": 252.0,
+"Other": 8.0,
+"Regional highway": 199.0,
+"Feeder / rural road": 109.0
+},
+"sources": [
+"https://unb.com.bd/category/Bangladesh/739-lives-lost-on-roads-in-july-in-bangladesh-rsf/98335"
+]
+},
+{
+"period": "2022-08",
+"label": "Aug 2022",
+"counts": {
+"City road": 64.0,
+"National highway": 252.0,
+"Other": 8.0,
+"Regional highway": 199.0,
+"Feeder / rural road": 109.0
+},
+"sources": [
+"https://www.tbsnews.net/node/489326"
+]
+},
+{
+"period": "2022-09",
+"label": "Sep 2022",
+"counts": {
+"City road": 36.0,
+"National highway": 234.0,
+"Other": 6.0,
+"Regional highway": 158.0,
+"Feeder / rural road": 73.0
+},
+"sources": [
+"https://unb.com.bd/category/Bangladesh/476-people-killed-in-407-road-accidents-in-september-road-safety-foundation/101890"
+]
+},
+{
+"period": "2023-02",
+"label": "Feb 2023",
+"counts": {
+"City road": 29.0,
+"National highway": 168.0,
+"Regional highway": 177.0,
+"Feeder / rural road": 61.0
+},
+"sources": [
+"https://unb.com.bd/category/Bangladesh/487-deaths-in-439-road-accidents-in-feb-road-safety-foundation/111468"
+]
+},
+{
+"period": "2023-06",
+"label": "Jun 2023",
+"counts": {
+"City road": 3.0,
+"National highway": 182.0,
+"Regional highway": 247.0,
+"Feeder / rural road": 59.0
+},
+"sources": [
+"https://unb.com.bd/category/Bangladesh/516-deaths-in-559-road-accidents-in-june-road-safety-foundation/118647"
+]
+},
+{
+"period": "2023-07",
+"label": "Jul 2023",
+"counts": {
+"City road": 42.0,
+"National highway": 208.0,
+"Other": 4.0,
+"Regional highway": 196.0,
+"Feeder / rural road": 61.0
+},
+"sources": [
+"https://www.tbsnews.net/node/678302"
+]
+},
+{
+"period": "2023-09",
+"label": "Sep 2023",
+"counts": {
+"City road": 22.0,
+"National highway": 139.0,
+"Other": 5.0,
+"Regional highway": 183.0,
+"Feeder / rural road": 49.0
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/327393/report-394-lives-lost-on-roads-across-bangladesh"
+]
+},
+{
+"period": "2023-11",
+"label": "Nov 2023",
+"counts": {
+"City road": 33.0,
+"National highway": 187.0,
+"Other": 8.0,
+"Regional highway": 232.0,
+"Feeder / rural road": 81.0
+},
+"sources": [
+"https://unb.com.bd/category/Bangladesh/467-lives-lost-on-roads-across-country-in-nov-road-safety-foundation/127181"
+]
+},
+{
+"period": "2023-12",
+"label": "Dec 2023",
+"counts": {
+"City road": 37.0,
+"National highway": 162.0,
+"Other": 3.0,
+"Regional highway": 238.0,
+"Feeder / rural road": 77.0
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/335789/report-512-killed-in-december-road-accidents"
+]
+},
+{
+"period": "2024-02",
+"label": "Feb 2024",
+"counts": {
+"City road": 72.0,
+"National highway": 173.0,
+"Other": 11.0,
+"Regional highway": 234.0,
+"Feeder / rural road": 93.0
+},
+"sources": [
+"https://www.tbsnews.net/node/808498"
+]
+},
+{
+"period": "2024-09",
+"label": "Sep 2024",
+"counts": {
+"City road": 34.0,
+"National highway": 162.0,
+"Other": 5.0,
+"Regional highway": 144.0,
+"Feeder / rural road": 47.0
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/361057/426-lives-lost-on-the-roads-in-september"
+]
+},
+{
+"period": "2024-10",
+"label": "Oct 2024",
+"counts": {
+"City road": 38.0,
+"National highway": 173.0,
+"Other": 6.0,
+"Regional highway": 162.0,
+"Feeder / rural road": 64.0
+},
+"sources": [
+"https://en.ittefaq.com.bd/9582/469-dead-837-injured-in-oct-road-crashes-in"
+]
+},
+{
+"period": "2025-01",
+"label": "Jan 2025",
+"counts": {
+"City road": 42.0,
+"National highway": 214.0,
+"Other": 4.0,
+"Regional highway": 265.0,
+"Feeder / rural road": 96.0
+},
+"sources": [
+"https://en.prothomalo.com/bangladesh/rzlxsq34sz",
+"https://thefinancialexpress.com.bd/national/bd-sees-621-road-accidents-in-jan-608-people-killed"
+]
+},
+{
+"period": "2025-02",
+"label": "Feb 2025",
+"counts": {
+"City road": 46.0,
+"National highway": 209.0,
+"Regional highway": 268.0,
+"Feeder / rural road": 73.0
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/375738/road-accident-596-crashes-claim-578-lives-in-last"
+]
+},
+{
+"period": "2025-03",
+"label": "Mar 2025",
+"counts": {
+"City road": 31.0,
+"National highway": 228.0,
+"Regional highway": 256.0,
+"Feeder / rural road": 72.0
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/378488/road-crashes-claim-604-lives-in-march"
+]
+},
+{
+"period": "2025-08",
+"label": "Aug 2025",
+"counts": {
+"City road": 60.0,
+"National highway": 214.0,
+"Regional highway": 135.0,
+"Feeder / rural road": 42.0
+},
+"sources": [
+"https://en.prothomalo.com/bangladesh/accident/92uxvdz8dp"
+]
+},
+{
+"period": "2025-09",
+"label": "Sep 2025",
+"counts": {
+"City road": 89.0,
+"National highway": 161.0,
+"Regional highway": 139.0,
+"Feeder / rural road": 57.0
+},
+"sources": [
+"https://bdnews24.com/bangladesh/5e6010dd20b6"
+]
+},
+{
+"period": "2025-10",
+"label": "Oct 2025",
+"counts": {
+"City road": 87.0,
+"National highway": 166.0,
+"Regional highway": 148.0,
+"Feeder / rural road": 81.0
+},
+"sources": [
+"https://unb.com.bd/category/Bangladesh/bangladesh-sees-rise-in-road-accidents-deaths-in-october-rsf/173371"
+]
+},
+{
+"period": "2025-11",
+"label": "Nov 2025",
+"counts": {
+"City road": 71.0,
+"National highway": 131.0,
+"Regional highway": 245.0,
+"Feeder / rural road": 82.0
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/399002/rsf-bangladesh-sees-rise-in-road-accidents"
+]
+},
+{
+"period": "2025-12",
+"label": "Dec 2025",
+"counts": {
+"City road": 76.0,
+"National highway": 194.0,
+"Other": 7.0,
+"Regional highway": 217.0,
+"Feeder / rural road": 53.0
+},
+"sources": [
+"https://en.prothomalo.com/bangladesh/5adgycvhw6"
+]
+},
+{
+"period": "2026-06",
+"label": "Jun 2026",
+"counts": {
+"City road": 57.0,
+"National highway": 151.0,
+"Other": 6.0,
+"Regional highway": 194.0,
+"Feeder / rural road": 64.0
+},
+"sources": [
+"https://bdnews24.com/bangladesh/9a8381f35de8"
+]
+},
+{
+"period": "2026-07",
+"label": "Jul 2026",
+"counts": {
+"City road": 66.0,
+"National highway": 169.0,
+"Other": 7.0,
+"Regional highway": 155.0,
+"Feeder / rural road": 61.0
+},
+"sources": [
+"https://unb.com.bd/category/Bangladesh/bangladeshs-roads-remain-deadly-416-killed-in-july-alone/192431"
+]
+},
+{
+"period": "2026-08",
+"label": "Aug 2026",
+"counts": {
+"City road": 71.0,
+"National highway": 163.0,
+"Regional highway": 217.0,
+"Feeder / rural road": 62.0
+},
+"sources": [
+"https://unb.com.bd/category/Bangladesh/road-crashes-claim-481-lives-in-august-alone/194804"
+]
+},
+{
+"period": "2026-09",
+"label": "Sep 2026",
+"counts": {
+"City road": 63.0,
+"National highway": 145.0,
+"Regional highway": 178.0,
+"Feeder / rural road": 56.0
+},
+"sources": [
+"https://unb.com.bd/category/Bangladesh/14-deaths-a-day-as-423-killed-in-road-crashes-in-september-rsf/196955"
+]
+}
+],
+"network": [
+{
+"year": "2006",
+"agency": "RHD",
+"road_class": "national",
+"length_km": 3529.0,
+"source_url": "https://proceedings-paris2007.piarc.org/ressources/files/8/Presentation-TS4-4-HOSSAIN.pdf",
+"note": "Road Fund Establishment Office 2006 (PIARC 2007 paper)"
+},
+{
+"year": "2006",
+"agency": "RHD",
+"road_class": "regional",
+"length_km": 4127.0,
+"source_url": "https://proceedings-paris2007.piarc.org/ressources/files/8/Presentation-TS4-4-HOSSAIN.pdf",
+"note": null
+},
+{
+"year": "2006",
+"agency": "RHD",
+"road_class": "zilla",
+"length_km": 13126.0,
+"source_url": "https://proceedings-paris2007.piarc.org/ressources/files/8/Presentation-TS4-4-HOSSAIN.pdf",
+"note": null
+},
+{
+"year": "2006",
+"agency": "LGED",
+"road_class": "upazila",
+"length_km": 36166.0,
+"source_url": "https://proceedings-paris2007.piarc.org/ressources/files/8/Presentation-TS4-4-HOSSAIN.pdf",
+"note": "17,889 km paved"
+},
+{
+"year": "2006",
+"agency": "LGED",
+"road_class": "union",
+"length_km": 42329.0,
+"source_url": "https://proceedings-paris2007.piarc.org/ressources/files/8/Presentation-TS4-4-HOSSAIN.pdf",
+"note": "8,515 km paved"
+},
+{
+"year": "2006",
+"agency": "LGED",
+"road_class": "village",
+"length_km": 171335.0,
+"source_url": "https://proceedings-paris2007.piarc.org/ressources/files/8/Presentation-TS4-4-HOSSAIN.pdf",
+"note": "7,583 km paved"
+},
+{
+"year": "1991",
+"agency": "RHD",
+"road_class": "national",
+"length_km": 3163.0,
+"source_url": "https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf",
+"note": "paved 3,002 + unpaved 161 (JICA Matarbari access road EIA, Table 3.1-2)"
+},
+{
+"year": "1991",
+"agency": "RHD",
+"road_class": "regional",
+"length_km": 2911.0,
+"source_url": "https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf",
+"note": "paved 2,262 + unpaved 649"
+},
+{
+"year": "1991",
+"agency": "RHD",
+"road_class": "zilla",
+"length_km": 9596.0,
+"source_url": "https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf",
+"note": "paved 4,440 + unpaved 5,156"
+},
+{
+"year": "2007",
+"agency": "RHD",
+"road_class": "national",
+"length_km": 3570.0,
+"source_url": "https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf",
+"note": "paved 3,485 + unpaved 85"
+},
+{
+"year": "2007",
+"agency": "RHD",
+"road_class": "regional",
+"length_km": 4323.0,
+"source_url": "https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf",
+"note": "paved 4,117 + unpaved 206"
+},
+{
+"year": "2007",
+"agency": "RHD",
+"road_class": "zilla",
+"length_km": 13678.0,
+"source_url": "https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf",
+"note": "paved 9,719 + unpaved 3,959"
+},
+{
+"year": "2011",
+"agency": "RHD",
+"road_class": "national",
+"length_km": 3537.0,
+"source_url": "https://ewsdata.rightsindevelopment.org/files/documents/16/ADB-40540-016_cYNExBY.pdf",
+"note": "ADB 40540-016 sector assessment Table 2; 65% good-fair"
+},
+{
+"year": "2011",
+"agency": "RHD",
+"road_class": "regional",
+"length_km": 4275.0,
+"source_url": "https://ewsdata.rightsindevelopment.org/files/documents/16/ADB-40540-016_cYNExBY.pdf",
+"note": "46% good-fair"
+},
+{
+"year": "2011",
+"agency": "RHD",
+"road_class": "zilla",
+"length_km": 13458.0,
+"source_url": "https://ewsdata.rightsindevelopment.org/files/documents/16/ADB-40540-016_cYNExBY.pdf",
+"note": "25% good-fair"
+},
+{
+"year": "2015",
+"agency": "RHD",
+"road_class": "national",
+"length_km": 3813.0,
+"source_url": "https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf",
+"note": "paved 3,759 + unpaved 54; same figure in ADB 2016 table"
+},
+{
+"year": "2015",
+"agency": "RHD",
+"road_class": "regional",
+"length_km": 4247.0,
+"source_url": "https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf",
+"note": "paved 4,043 + unpaved 204"
+},
+{
+"year": "2015",
+"agency": "RHD",
+"road_class": "zilla",
+"length_km": 13242.0,
+"source_url": "https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf",
+"note": "paved 11,584 + unpaved 1,658"
+},
+{
+"year": "2021",
+"agency": "RHD",
+"road_class": "national",
+"length_km": 3991.0,
+"source_url": "https://www.adb.org/sites/default/files/linked-documents/40540-019-ld-04.pdf",
+"note": "ADB 40540-019 sector assessment Table 3; 92% good-fair"
+},
+{
+"year": "2021",
+"agency": "RHD",
+"road_class": "regional",
+"length_km": 4898.0,
+"source_url": "https://www.adb.org/sites/default/files/linked-documents/40540-019-ld-04.pdf",
+"note": "88% good-fair"
+},
+{
+"year": "2021",
+"agency": "RHD",
+"road_class": "zilla",
+"length_km": 13589.0,
+"source_url": "https://www.adb.org/sites/default/files/linked-documents/40540-019-ld-04.pdf",
+"note": "74% good-fair; total 22,478"
+},
+{
+"year": "2020",
+"agency": "RHD",
+"road_class": "total",
+"length_km": 22096.0,
+"source_url": "https://www.thedailystar.net/frontpage/news/20pc-roads-sorry-state-1926745",
+"note": "HDM survey Nov 2019-Mar 2020 (19,282 km surveyed; 18.6% poor-very bad)"
+},
+{
+"year": "n.d. (RHD 'Road Network at a Glance', c.2015-2019)",
+"agency": "RHD",
+"road_class": "national",
+"length_km": 3544.06,
+"source_url": "https://d10.dlca.logcluster.org/node/4469",
+"note": "WFP Logistics Capacity Assessment copy of RHD table"
+},
+{
+"year": "n.d. (RHD 'Road Network at a Glance', c.2015-2019)",
+"agency": "RHD",
+"road_class": "regional",
+"length_km": 4280.02,
+"source_url": "https://d10.dlca.logcluster.org/node/4469",
+"note": null
+},
+{
+"year": "n.d. (RHD 'Road Network at a Glance', c.2015-2019)",
+"agency": "RHD",
+"road_class": "zilla",
+"length_km": 13659.13,
+"source_url": "https://d10.dlca.logcluster.org/node/4469",
+"note": "total 21,483.21"
+},
+{
+"year": "n.d. (Wikipedia, c.2023)",
+"agency": "RHD",
+"road_class": "national",
+"length_km": 3990.75,
+"source_url": "https://en.wikipedia.org/wiki/List_of_roads_in_Bangladesh",
+"note": "matches ADB 2021 figure (3,991)"
+},
+{
+"year": "n.d. (Wikipedia, c.2023)",
+"agency": "RHD",
+"road_class": "regional",
+"length_km": 4206.121,
+"source_url": "https://en.wikipedia.org/wiki/List_of_roads_in_Bangladesh",
+"note": null
+},
+{
+"year": "n.d. (Wikipedia, c.2023)",
+"agency": "RHD",
+"road_class": "zilla",
+"length_km": 13121.757,
+"source_url": "https://en.wikipedia.org/wiki/List_of_roads_in_Bangladesh",
+"note": null
+},
+{
+"year": "n.d. (Wikipedia, c.2023)",
+"agency": "LGED",
+"road_class": "upazila",
+"length_km": 37800.0,
+"source_url": "https://en.wikipedia.org/wiki/List_of_roads_in_Bangladesh",
+"note": "page total network >375,000 km in 2023"
+},
+{
+"year": "n.d. (Wikipedia, c.2023)",
+"agency": "LGED",
+"road_class": "union",
+"length_km": 44750.0,
+"source_url": "https://en.wikipedia.org/wiki/List_of_roads_in_Bangladesh",
+"note": null
+},
+{
+"year": "n.d. (Wikipedia, c.2023)",
+"agency": "LGED",
+"road_class": "village",
+"length_km": 215750.0,
+"source_url": "https://en.wikipedia.org/wiki/List_of_roads_in_Bangladesh",
+"note": null
+}
+]
+}

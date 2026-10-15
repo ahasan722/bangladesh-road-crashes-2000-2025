@@ -1,0 +1,73 @@
+level,name,division,pop_2011,pop_2022,area_km2,source_url,note
+division,Dhaka,Dhaka,36433505,44215107,20593.74,https://en.wikipedia.org/wiki/Divisions_of_Bangladesh,"sum of districts: 2011=36579203, 2022=44213434"
+division,Chattogram,Chattogram,28423019,33202326,33908.55,https://en.wikipedia.org/wiki/Divisions_of_Bangladesh,"sum of districts: 2011=28423019, 2022=33202330"
+division,Rajshahi,Rajshahi,18484858,20353119,18153.08,https://en.wikipedia.org/wiki/Divisions_of_Bangladesh (2011 = sum of district rows),"sum of districts: 2011=18484858, 2022=20353116"
+division,Khulna,Khulna,15687789,17416645,22284.22,https://en.wikipedia.org/wiki/Divisions_of_Bangladesh (2011 = sum of district rows),"sum of districts: 2011=15687789, 2022=17415924"
+division,Barishal,Barishal,8325666,9100102,13225.2,https://en.wikipedia.org/wiki/Divisions_of_Bangladesh,"sum of districts: 2011=8325666, 2022=9100104"
+division,Sylhet,Sylhet,9910219,11034863,12635.22,https://en.wikipedia.org/wiki/Divisions_of_Bangladesh (2011 = sum of district rows),"sum of districts: 2011=9910219, 2022=11034364"
+division,Rangpur,Rangpur,15787758,17610956,16184.99,https://en.wikipedia.org/wiki/Divisions_of_Bangladesh,"sum of districts: 2011=15787558, 2022=17610955"
+division,Mymensingh,Mymensingh,10990913,12225498,10584.06,https://en.wikipedia.org/wiki/Divisions_of_Bangladesh,"sum of districts: 2011=10990913, 2022=12224790"
+district,Dhaka,Dhaka,12043977,14734024,1463.6,https://en.wikipedia.org/wiki/Dhaka_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Gazipur,Dhaka,3403912,5262978,1806.36,https://en.wikipedia.org/wiki/Dhaka_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Manikganj,Dhaka,1392867,1557927,1383.66,https://en.wikipedia.org/wiki/Dhaka_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Munshiganj,Dhaka,1445660,1625354,1004.29,https://en.wikipedia.org/wiki/Dhaka_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Narayanganj,Dhaka,2948217,3908898,684.37,https://en.wikipedia.org/wiki/Dhaka_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Narsingdi,Dhaka,2224944,2584335,1150.14,https://en.wikipedia.org/wiki/Dhaka_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Kishoreganj,Dhaka,2911907,3267626,2688.53,https://en.wikipedia.org/wiki/Dhaka_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Tangail,Dhaka,3750781,4037316,3414.35,https://en.wikipedia.org/wiki/Dhaka_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Faridpur,Dhaka,1912969,2162754,2052.68,https://en.wikipedia.org/wiki/Dhaka_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Gopalganj,Dhaka,1172415,1295005,1468.74,https://en.wikipedia.org/wiki/Dhaka_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Madaripur,Dhaka,1165952,1292963,1125.69,https://en.wikipedia.org/wiki/Dhaka_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Rajbari,Dhaka,1049778,1189743,1092.28,https://en.wikipedia.org/wiki/Dhaka_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Shariatpur,Dhaka,1155824,1294511,1174.05,https://en.wikipedia.org/wiki/Dhaka_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Brahmanbaria,Chattogram,2840498,3306563,1881.2,https://en.wikipedia.org/wiki/Chittagong_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Cumilla,Chattogram,5387288,6212216,3146.3,https://en.wikipedia.org/wiki/Chittagong_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Chandpur,Chattogram,2416018,2635748,1645.32,https://en.wikipedia.org/wiki/Chittagong_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Lakshmipur,Chattogram,1729188,1938111,1440.39,https://en.wikipedia.org/wiki/Chittagong_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Noakhali,Chattogram,3108083,3625252,3685.87,https://en.wikipedia.org/wiki/Chittagong_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Feni,Chattogram,1437371,1648896,990.36,https://en.wikipedia.org/wiki/Chittagong_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Khagrachhari,Chattogram,613917,714119,2749.16,https://en.wikipedia.org/wiki/Chittagong_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Rangamati,Chattogram,595979,647587,6116.11,https://en.wikipedia.org/wiki/Chittagong_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Bandarban,Chattogram,388335,481109,4479.01,https://en.wikipedia.org/wiki/Chittagong_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Chattogram,Chattogram,7616352,9169464,5282.92,https://en.wikipedia.org/wiki/Chittagong_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Cox's Bazar,Chattogram,2289990,2823265,2491.85,https://en.wikipedia.org/wiki/Chittagong_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Rajshahi,Rajshahi,2595197,2915009,2425.37,https://en.wikipedia.org/wiki/Rajshahi_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Bogura,Rajshahi,3400874,3734297,2898.68,https://en.wikipedia.org/wiki/Bogra_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Pabna,Rajshahi,2523179,2909624,2376.13,https://en.wikipedia.org/wiki/Pabna_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Joypurhat,Rajshahi,913768,956431,965.44,https://en.wikipedia.org/wiki/Joypurhat_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Sirajganj,Rajshahi,3097489,3357706,2402.02,https://en.wikipedia.org/wiki/Sirajganj_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Naogaon,Rajshahi,2600157,2784599,3435.67,https://en.wikipedia.org/wiki/Naogaon_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Natore,Rajshahi,1706673,1859922,1900.19,https://en.wikipedia.org/wiki/Natore_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Chapai Nawabganj,Rajshahi,1647521,1835528,1702.55,https://en.wikipedia.org/wiki/Chapai_Nawabganj_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Jashore,Khulna,2764547,3076144,2606.94,https://en.wikipedia.org/wiki/Jashore_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Khulna,Khulna,2318527,2613385,4394.45,https://en.wikipedia.org/wiki/Khulna_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Kushtia,Khulna,1946868,2149692,1608.78,https://en.wikipedia.org/wiki/Kushtia_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Satkhira,Khulna,1985959,2196582,3817.29,https://en.wikipedia.org/wiki/Satkhira_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Jhenaidah,Khulna,1771304,2005849,1964.77,https://en.wikipedia.org/wiki/Jhenaidah_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Bagerhat,Khulna,1476090,1613076,3959.11,https://en.wikipedia.org/wiki/Bagerhat_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Chuadanga,Khulna,1129015,1234054,1174.1,https://en.wikipedia.org/wiki/Chuadanga_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Magura,Khulna,918419,1033115,1039.1,https://en.wikipedia.org/wiki/Magura_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Narail,Khulna,721668,788671,967.99,https://en.wikipedia.org/wiki/Narail_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Meherpur,Khulna,655392,705356,741.62,https://en.wikipedia.org/wiki/Meherpur_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Barishal,Barishal,2324310,2570446,2784.52,https://en.wikipedia.org/wiki/Barisal_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Barguna,Barishal,892781,1010531,1831.31,https://en.wikipedia.org/wiki/Barisal_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Bhola,Barishal,1776795,1932518,3403.48,https://en.wikipedia.org/wiki/Barisal_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Jhalokati,Barishal,682669,661160,706.76,https://en.wikipedia.org/wiki/Barisal_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Patuakhali,Barishal,1535854,1727254,3221.31,https://en.wikipedia.org/wiki/Barisal_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Pirojpur,Barishal,1113257,1198195,1277.8,https://en.wikipedia.org/wiki/Barisal_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Habiganj,Sylhet,2089001,2358747,2536.58,https://en.wikipedia.org/wiki/Sylhet_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Moulvibazar,Sylhet,1919062,2123349,2601.84,https://en.wikipedia.org/wiki/Sylhet_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Sunamganj,Sylhet,2467968,2695294,3669.58,https://en.wikipedia.org/wiki/Sylhet_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Sylhet,Sylhet,3434188,3856974,3490.4,https://en.wikipedia.org/wiki/Sylhet_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Rangpur,Rangpur,2881086,3169614,2400.56,https://en.wikipedia.org/wiki/Rangpur_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Dinajpur,Rangpur,2990128,3315236,3437.98,"https://en.wikipedia.org/wiki/Dinajpur_District,_Bangladesh",BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Kurigram,Rangpur,2069073,2329160,2245.04,https://en.wikipedia.org/wiki/Kurigram_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Gaibandha,Rangpur,2379255,2562233,2179.27,https://en.wikipedia.org/wiki/Gaibandha_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Lalmonirhat,Rangpur,1256099,1428406,1247.37,https://en.wikipedia.org/wiki/Lalmonirhat_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Nilphamari,Rangpur,1834231,2092568,1580.59,https://en.wikipedia.org/wiki/Nilphamari_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Panchagarh,Rangpur,987644,1179843,1404.63,https://en.wikipedia.org/wiki/Panchagarh_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Thakurgaon,Rangpur,1390042,1533895,1809.52,https://en.wikipedia.org/wiki/Thakurgaon_District,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Mymensingh,Mymensingh,5110272,5898747,4394.57,https://en.wikipedia.org/wiki/Mymensingh_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Jamalpur,Mymensingh,2292674,2499627,2115.16,https://en.wikipedia.org/wiki/Mymensingh_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Netrokona,Mymensingh,2229642,2324665,2794.28,https://en.wikipedia.org/wiki/Mymensingh_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia
+district,Sherpur,Mymensingh,1358325,1501751,1364.67,https://en.wikipedia.org/wiki/Mymensingh_Division,BBS Census 2011 / Census 2022 (final) as carried on en.wikipedia

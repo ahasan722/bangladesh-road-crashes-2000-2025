@@ -1,0 +1,24 @@
+corridor,section,year,aadt,unit,source_url,note
+N1,N1-38 Chittagong (Bahaddarhat) - Maizzertek (Z1804),2016,9697,"veh/day (17,850 PCU)",https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,"RHD Traffic Summary Sheet 2016 link counts, quoted in JICA Matarbari access road EIA"
+N1,N1-40 Sikolbaha (Z1018) - Shantirhat (Z1071),2016,9204,"veh/day (17,169 PCU)",https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,
+N1,N1-43 Mansertek (N107) - Patiya (Z1059),2016,10352,"veh/day (18,338 PCU)",https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,
+N1,N1-44 Patiya (Z1059) - Patiya Dakbanglo (Z1057),2016,9130,"veh/day (14,688 PCU)",https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,
+N1,N1-46 Patiya (Z1039) - Khanhat (Z1026),2016,11842,"veh/day (17,701 PCU)",https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,
+N1,N1-49 Keranihat (N108) - Z1019,2016,12680,"veh/day (17,160 PCU)",https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,
+N1,N1-52 Chunati (R171) - Aziznagar (Z1007),2016,10851,"veh/day (21,450 PCU)",https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,
+N1,N1-56 Baraitali (Z1002) - Z1126,2016,7178,"veh/day (14,469 PCU)",https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,
+N1,N1-59 Chakaria (R172) - Faishakhali (Z1005),2016,8846,"veh/day (13,499 PCU)",https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,
+N1,N1-61 Dulahazra (Z1130) - Khutakhali (Z1131),2016,5053,"veh/day (7,523 PCU)",https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,
+N1,N1-63 Ramu (Z1001) - Ramu (N109),2016,5053,"veh/day (7,250 PCU)",https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,
+N1,near Chakaria (sectional count),2017,13008,"veh/day (16,489 PCU), 24h count not annualised",https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,"motorcycle 2,427; 3-wheeler 5,168; car 1,175; utility 1,548; bus 827; truck 1,863"
+N1,Chittagong - Keranihat (forecast),2026,48206,PCU/day forecast,https://www.jica.go.jp/english/our_work/social_environmental/id/asia/south/bangladesh/c8h0vm0000bikdzb-att/c8h0vm0000dqx3lv.pdf,
+N1,Int. Z1018 - Int. N107 (Chattogram south),2015,14200,PCU/day (JICA forecast base year),https://openjicareport.jica.go.jp/pdf/12249504_02.pdf,"JICA Table 6.2.30, 100 PCU/day units; 2020: 18,000; 2030: 25,200"
+N1,Int. N107 - Patiya,2015,17100,PCU/day,https://openjicareport.jica.go.jp/pdf/12249504_02.pdf,"2020: 21,500; 2030: 30,000"
+N1,Patiya - Chandanaish,2015,15700,PCU/day,https://openjicareport.jica.go.jp/pdf/12249504_02.pdf,"2020: 19,800; 2030: 27,700"
+N1,Chandanaish - Int. N108 (Keranihat),2015,13000,PCU/day,https://openjicareport.jica.go.jp/pdf/12249504_02.pdf,"2020: 16,400; 2030: 23,100"
+N1,Int. N108 - Chunati,2015,27200,PCU/day,https://openjicareport.jica.go.jp/pdf/12249504_02.pdf,"2020: 34,500; 2030: 48,500"
+N1,Chunati - Int. R172 (Chakaria),2015,13000,PCU/day,https://openjicareport.jica.go.jp/pdf/12249504_02.pdf,"2020: 16,400; 2030: 23,000"
+N1,Int. R172 - Dulahazara,2015,14900,PCU/day,https://openjicareport.jica.go.jp/pdf/12249504_02.pdf,"2020: 18,900; 2030: 26,600"
+N1,Dulahazara - Int. Z1009,2015,8300,PCU/day,https://openjicareport.jica.go.jp/pdf/12249504_02.pdf,"2020: 10,500; 2030: 14,800"
+N5,"Dhaka-Rangpur highway (whole), normal day",2024,20000,"veh/day (press figure, not RHD census)",https://en.prothomalo.com/bangladesh/local-news/j7uyuxyd4v,"rises to >50,000 at Eid (Prothom Alo)"
+N1,"Dhaka-Chattogram (whole, 2-lane pre-4-laning)",n.d.,,,https://pppo.gov.bd/projects-dhaka-chittagong-access-controlled-highway.php,PPP Office page gives no AADT; N1 231 km Dhaka-Chattogram

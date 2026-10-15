@@ -1,0 +1,391 @@
+{
+"divisions": [
+"Dhaka",
+"Chattogram",
+"Rajshahi",
+"Khulna",
+"Barishal",
+"Sylhet",
+"Rangpur",
+"Mymensingh"
+],
+"periods": [
+{
+"period": "2022-06",
+"label": "Jun 2022",
+"shares": {
+"Dhaka": 25.05,
+"Rajshahi": 15.41,
+"Chattogram": 16.48,
+"Khulna": 14.34,
+"Barishal": 9.0,
+"Sylhet": 2.78,
+"Rangpur": 10.49,
+"Mymensingh": 6.42
+},
+"basis": "accidents",
+"totals": {
+"accidents": 467.0,
+"deaths": 524.0,
+"injuries": 821.0
+},
+"counts_published": {
+"Dhaka": 117.0,
+"Sylhet": 13.0
+},
+"sources": [
+"https://unb.com.bd/category/bangladesh/road-crashes-claim-524-lives-in-june/96260"
+]
+},
+{
+"period": "2022-07",
+"label": "Jul 2022",
+"shares": {
+"Dhaka": 31.48,
+"Rajshahi": 15.18,
+"Chattogram": 16.61,
+"Khulna": 13.13,
+"Barishal": 5.69,
+"Sylhet": 4.9,
+"Rangpur": 6.0,
+"Mymensingh": 6.69
+},
+"basis": "accidents",
+"totals": {
+"accidents": 632.0,
+"deaths": 739.0,
+"injuries": 2042.0
+},
+"counts_published": {
+"Dhaka": 199.0
+},
+"sources": [
+"https://unb.com.bd/category/Bangladesh/739-lives-lost-on-roads-in-july-in-bangladesh-rsf/98335"
+]
+},
+{
+"period": "2022-08",
+"label": "Aug 2022",
+"shares": {
+"Dhaka": 27.72,
+"Chattogram": 21.61,
+"Rajshahi": 15.28,
+"Khulna": 10.08,
+"Rangpur": 8.95,
+"Barishal": 8.8,
+"Mymensingh": 7.42,
+"Sylhet": 4.14
+},
+"basis": "accidents",
+"totals": {
+"accidents": 458.0,
+"deaths": 519.0,
+"injuries": 961.0
+},
+"counts_published": {
+"Dhaka": 127.0
+},
+"sources": [
+"https://www.tbsnews.net/node/489326"
+]
+},
+{
+"period": "2025-08",
+"label": "Aug 2025",
+"shares": {
+"Dhaka": 26.38,
+"Chattogram": 21.28,
+"Rajshahi": 12.63,
+"Khulna": 9.97,
+"Rangpur": 9.53,
+"Sylhet": 9.09,
+"Mymensingh": 7.09,
+"Barishal": 4.0
+},
+"basis": "accidents",
+"totals": {
+"accidents": 451.0,
+"deaths": 428.0,
+"injuries": 791.0
+},
+"counts_published": {
+"Dhaka": 119.0
+},
+"sources": [
+"https://en.prothomalo.com/bangladesh/accident/92uxvdz8dp"
+]
+},
+{
+"period": "2025-09",
+"label": "Sep 2025",
+"shares": {
+"Dhaka": 28.69,
+"Chattogram": 22.0,
+"Rajshahi": 18.83,
+"Rangpur": 8.87,
+"Khulna": 6.72,
+"Mymensingh": 5.38,
+"Barishal": 3.58,
+"Sylhet": 3.35
+},
+"basis": "accidents",
+"totals": {
+"accidents": 446.0,
+"deaths": 417.0,
+"injuries": 682.0
+},
+"counts_published": {},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/393162/rsf-417-lives-lost-on-roads-in-september-in"
+]
+},
+{
+"period": "2025-10",
+"label": "Oct 2025",
+"shares": {
+"Dhaka": 24.89,
+"Chattogram": 21.39,
+"Khulna": 13.16,
+"Rajshahi": 11.52,
+"Rangpur": 11.31,
+"Barishal": 6.37,
+"Mymensingh": 5.96,
+"Sylhet": 5.34
+},
+"basis": "accidents",
+"totals": {
+"accidents": 486.0,
+"deaths": 441.0,
+"injuries": 1128.0
+},
+"counts_published": {
+"Dhaka": 121.0,
+"Sylhet": 26.0
+},
+"sources": [
+"https://unb.com.bd/category/Bangladesh/bangladesh-sees-rise-in-road-accidents-deaths-in-october-rsf/173371"
+]
+},
+{
+"period": "2025-11",
+"label": "Nov 2025",
+"shares": {
+"Dhaka": 26.4,
+"Chattogram": 20.97,
+"Rajshahi": 16.1,
+"Khulna": 12.17,
+"Rangpur": 7.11,
+"Barishal": 6.36,
+"Sylhet": 5.61,
+"Mymensingh": 5.24
+},
+"basis": "accidents",
+"totals": {
+"accidents": 534.0,
+"deaths": 483.0,
+"injuries": 1317.0
+},
+"counts_published": {
+"Dhaka": 141.0,
+"Sylhet": 30.0
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/399002/rsf-bangladesh-sees-rise-in-road-accidents"
+]
+},
+{
+"period": "2026-06",
+"label": "Jun 2026",
+"shares": {
+"Dhaka": 24.57,
+"Chattogram": 23.72,
+"Rajshahi": 18.43,
+"Rangpur": 10.16,
+"Khulna": 8.68,
+"Barishal": 5.93,
+"Sylhet": 4.44,
+"Mymensingh": 4.02
+},
+"basis": "accidents",
+"totals": {
+"accidents": 472.0,
+"deaths": 438.0,
+"injuries": 561.0
+},
+"counts_published": {
+"Dhaka": 116.0,
+"Mymensingh": 19.0
+},
+"sources": [
+"https://bdnews24.com/bangladesh/9a8381f35de8"
+]
+},
+{
+"period": "eid_fitr_2025",
+"label": "Eid-ul-Fitr 2025",
+"shares": {
+"Dhaka": 28.79,
+"Chattogram": 15.17,
+"Khulna": 15.95,
+"Rajshahi": 14.39,
+"Mymensingh": 9.33,
+"Rangpur": 7.39,
+"Barishal": 6.22,
+"Sylhet": 2.72
+},
+"basis": "accidents",
+"totals": {
+"days": 11.0,
+"accidents": 257.0,
+"deaths": 249.0,
+"injuries": 553.0,
+"deaths_per_day": 22.63
+},
+"counts_published": {
+"Sylhet": 7.0
+},
+"sources": [
+"https://www.dhakatribune.com/bangladesh/378096/eid-holiday-turns-deadly-over-249-lives-lost-in"
+]
+}
+],
+"pooled": {
+"Dhaka": 27.16,
+"Chattogram": 20.03,
+"Rajshahi": 15.34,
+"Khulna": 11.47,
+"Barishal": 6.21,
+"Sylhet": 4.82,
+"Rangpur": 8.81,
+"Mymensingh": 6.24
+},
+"pooled_n": 9,
+"annual_extremes": [
+{
+"year": 2020,
+"division": "Dhaka",
+"measure": "share_pct",
+"value": 25.52,
+"url": "https://old.thefinancialexpress.com.bd/national/road-crashes-took-5431-lives-last-year-says-report-1610100641"
+},
+{
+"year": 2020,
+"division": "Dhaka",
+"measure": "share_pct",
+"value": 25.08,
+"url": "https://old.thefinancialexpress.com.bd/national/road-crashes-took-5431-lives-last-year-says-report-1610100641"
+},
+{
+"year": 2020,
+"division": "Sylhet",
+"measure": "share_pct",
+"value": 6.88,
+"url": "https://old.thefinancialexpress.com.bd/national/road-crashes-took-5431-lives-last-year-says-report-1610100641"
+},
+{
+"year": 2020,
+"division": "Sylhet",
+"measure": "share_pct",
+"value": 7.0,
+"url": "https://old.thefinancialexpress.com.bd/national/road-crashes-took-5431-lives-last-year-says-report-1610100641"
+},
+{
+"year": 2021,
+"division": "Dhaka",
+"measure": "accidents",
+"value": 1344.0,
+"url": "https://unb.com.bd/category/Bangladesh/perilous-roads-in-bangladesh-6284-killed-in-2021-rsf/85512"
+},
+{
+"year": 2021,
+"division": "Dhaka",
+"measure": "deaths",
+"value": 1545.0,
+"url": "https://unb.com.bd/category/Bangladesh/perilous-roads-in-bangladesh-6284-killed-in-2021-rsf/85512"
+},
+{
+"year": 2021,
+"division": "Rangpur",
+"measure": "accidents",
+"value": 398.0,
+"url": "https://unb.com.bd/category/Bangladesh/perilous-roads-in-bangladesh-6284-killed-in-2021-rsf/85512"
+},
+{
+"year": 2021,
+"division": "Rangpur",
+"measure": "deaths",
+"value": 443.0,
+"url": "https://unb.com.bd/category/Bangladesh/perilous-roads-in-bangladesh-6284-killed-in-2021-rsf/85512"
+},
+{
+"year": 2022,
+"division": "Dhaka",
+"measure": "accidents",
+"value": 1841.0,
+"url": "https://www.thedailystar.net/opinion/editorial/news/safe-roads-smart-cities-3216316"
+},
+{
+"year": 2022,
+"division": "Dhaka",
+"measure": "deaths",
+"value": 2044.0,
+"url": "https://www.thedailystar.net/opinion/editorial/news/safe-roads-smart-cities-3216316"
+},
+{
+"year": 2022,
+"division": "Dhaka",
+"measure": "share_pct",
+"value": 27.0,
+"url": "https://en.prothomalo.com/bangladesh/accident/nr3n0krxfx"
+},
+{
+"year": 2022,
+"division": "Dhaka",
+"measure": "deaths",
+"value": 1841.0,
+"url": "https://en.prothomalo.com/bangladesh/accident/nr3n0krxfx"
+},
+{
+"year": 2024,
+"division": "Dhaka",
+"measure": "accidents",
+"value": 1582.0,
+"url": "https://en.prothomalo.com/bangladesh/m4kzejfpvx"
+},
+{
+"year": 2024,
+"division": "Dhaka",
+"measure": "deaths",
+"value": 1840.0,
+"url": "https://en.prothomalo.com/bangladesh/m4kzejfpvx"
+},
+{
+"year": 2024,
+"division": "Sylhet",
+"measure": "accidents",
+"value": 435.0,
+"url": "https://en.prothomalo.com/bangladesh/m4kzejfpvx"
+},
+{
+"year": 2024,
+"division": "Sylhet",
+"measure": "deaths",
+"value": 443.0,
+"url": "https://en.prothomalo.com/bangladesh/m4kzejfpvx"
+},
+{
+"year": 2025,
+"division": "Dhaka",
+"measure": "accidents",
+"value": 2139.0,
+"url": "https://thefinancialexpress.com.bd/national/road-accidents-rise-60pc-deaths-36pc-in-five-years"
+},
+{
+"year": 2025,
+"division": "Dhaka",
+"measure": "deaths",
+"value": 2018.0,
+"url": "https://thefinancialexpress.com.bd/national/road-accidents-rise-60pc-deaths-36pc-in-five-years"
+}
+]
+}
