@@ -3,7 +3,8 @@ import sys, asyncio, math, shutil, subprocess
 from pathlib import Path
 from playwright.async_api import async_playwright
 
-URL, OUT = sys.argv[1], Path(sys.argv[2]); OUT.mkdir(parents=True, exist_ok=True)
+URL, OUT = (sys.argv[1], Path(sys.argv[2])) if __name__=="__main__" else (None, None)
+if OUT: OUT.mkdir(parents=True, exist_ok=True)
 W, H = 1920, 1080
 
 CURSOR_JS = """
@@ -22,7 +23,7 @@ CURSOR_JS = """
 class Bot:
     def __init__(self, page): self.p=page; self.x=W/2; self.y=H/2
     async def move(self, x, y, dur=0.6):
-        steps=max(8,int(dur*30)); sx,sy=self.x,self.y
+        steps=max(6,int(dur*15)); sx,sy=self.x,self.y
         for i in range(1,steps+1):
             t=i/steps; e=t*t*(3-2*t)  # ease in-out
             await self.p.mouse.move(sx+(x-sx)*e, sy+(y-sy)*e); await asyncio.sleep(dur/steps)
@@ -35,7 +36,7 @@ class Bot:
         await self.to(sel, dx, dy); await self.p.mouse.down(); await asyncio.sleep(0.08); await self.p.mouse.up(); await asyncio.sleep(pause)
     async def scroll_to(self, sel, offset=-70, dur=1.2):
         y=await self.p.evaluate("(s)=>document.querySelector(s).getBoundingClientRect().top+window.scrollY", sel)
-        start=await self.p.evaluate("window.scrollY"); target=y+offset; steps=int(dur*30)
+        start=await self.p.evaluate("window.scrollY"); target=y+offset; steps=int(dur*20)
         for i in range(1,steps+1):
             t=i/steps; e=t*t*(3-2*t); await self.p.evaluate(f"window.scrollTo(0,{start+(target-start)*e})"); await asyncio.sleep(dur/steps)
     async def sweep(self, sel, frac_from=0.08, frac_to=0.92, y_frac=0.5, dur=2.5):
@@ -111,4 +112,4 @@ async def main():
     subprocess.run(["ffmpeg","-y","-loglevel","error","-i",str(src),"-vf","fps=30,format=yuv420p","-c:v","libx264","-preset","fast","-crf","20","-movflags","+faststart",str(mp4)], check=True)
     print("wrote", mp4, mp4.stat().st_size//1024, "KB")
 
-asyncio.run(main())
+if __name__=="__main__": asyncio.run(main())

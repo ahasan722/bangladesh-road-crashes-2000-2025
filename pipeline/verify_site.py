@@ -36,17 +36,17 @@ async def main():
         await pg.click("#corr3d"); await pg.wait_for_timeout(800)
         await pg.click("#corrBin button[data-v='5']"); await pg.wait_for_timeout(600); check("worst 5 km" in (await pg.inner_text("#corrStats")), "bin size 5 km applied")
         # hover a bar: move across the stage until the panel changes
-        box=await pg.locator("#corrMap").bounding_box(); found=False
-        for i in range(0,40):
-            await pg.mouse.move(box["x"]+box["width"]*(0.2+0.6*i/40), box["y"]+box["height"]*(0.15+0.7*i/40))
-            if "listed hazardous location" in (await pg.inner_text("#corrPanel")): found=True; break
+        await pg.evaluate("document.getElementById('corrMap').scrollIntoView({block:'center'})"); await pg.wait_for_timeout(1500)
+        pt=await pg.evaluate("(()=>{const r=document.getElementById('corrCanvas').getBoundingClientRect(); const bs=window.__ribbon.bars; if(!bs.length) return null; const p=bs[0].poly; return [r.left+(p[0][0]+p[2][0])/2, r.top+(p[0][1]+p[2][1])/2]})()")
+        found=False
+        if pt: await pg.mouse.move(pt[0],pt[1]); await pg.wait_for_timeout(400); found="listed hazardous location" in (await pg.inner_text("#corrPanel"))
         check(found, "hovering a bar fills the panel")
         # who
         await pg.locator("#who").scroll_into_view_if_needed(); await pg.wait_for_timeout(500)
         n=await pg.locator("#whoChart circle").count(); check(n>=20, f"who chart points {n}")
         await pg.click("#whoMode button[data-v=share]"); await pg.wait_for_timeout(300); check("%" in (await pg.inner_text("#whoChart")), "who share mode")
         # when: drag dial
-        await pg.evaluate("document.getElementById('whenDial').scrollIntoView({block:'center'})"); await pg.wait_for_timeout(500)
+        await pg.evaluate("document.getElementById('whenDial').scrollIntoView({block:'center'})"); await pg.wait_for_timeout(900)
         s0=await pg.inner_text("#whenStats"); d=await pg.locator("#whenDial").bounding_box(); cx=d["x"]+d["width"]/2; cy=d["y"]+d["height"]/2; r=d["width"]*104/300
         await pg.mouse.move(cx,cy-r); await pg.mouse.down(); await pg.mouse.move(cx+r,cy, steps=10); await pg.mouse.up(); await pg.wait_for_timeout(300)
         s1=await pg.inner_text("#whenStats"); check(s0!=s1 and "between" in s1, "dial drag updates share")
