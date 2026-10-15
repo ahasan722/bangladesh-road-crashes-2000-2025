@@ -33,11 +33,12 @@
 
 <section class="hero" id="top">
   <div class="road" aria-hidden="true"><svg id="heroRoad" preserveAspectRatio="none"></svg></div>
-  <div class="in">
+  <div class="scrollhint" aria-hidden="true">scroll</div>
+  <div class="in"><div class="copy">
     <h1>Every day, about twenty people in Bangladesh leave home and die on the road.</h1>
     <p class="lede">Twenty-five years of crash records from the police, two media-monitoring groups and the WHO disagree with each other by a factor of six. This explorer puts all of them on the same axis, maps where the deaths cluster, walks the deadliest highways kilometre by kilometre, and asks who dies, when, and on which roads.</p>
     <div class="meta" id="heroMeta"></div>
-  </div>
+  </div></div>
 </section>
 <div class="kerb"></div>
 
@@ -45,7 +46,7 @@
 <section class="chapter" id="gap">
   <div class="in">
     <header>
-      <div><span class="kick">Chapter 1</span><h2>Nobody agrees how many die</h2></div>
+      <div><span class="kick" data-n="1">of seven chapters</span><h2>Nobody agrees how many die</h2></div>
       <p>Police count first-information reports. Jatri Kalyan Samity and the Road Safety Foundation count what newspapers print. The WHO models the total from health data. Toggle the sources and watch the same country produce four different death tolls.</p>
     </header>
     <div class="chartbox">
@@ -69,7 +70,7 @@
 <section class="chapter" id="where">
   <div class="in">
     <header>
-      <div><span class="kick">Chapter 2</span><h2>Where the deaths are</h2></div>
+      <div><span class="kick" data-n="2">of seven chapters</span><h2>Where the deaths are</h2></div>
       <p>Which division's roads produce the crashes, from every 8-division table the Road Safety Foundation has published since 2022, pooled or one period at a time. Switch the layer to see which districts hold the listed hazardous locations.</p>
     </header>
     <div class="explorer">
@@ -82,6 +83,7 @@
           <input type="range" class="range" id="whereSlider" aria-label="Year">
         </div>
         <div class="ctl"><span class="lbl">Layer</span><select id="whereSource"></select></div>
+        <div class="ctl"><button class="btn" id="where3d">3D</button></div>
         <div class="stats" id="whereStats"></div>
         <div class="legend" id="whereLegend"></div>
         <p class="note" id="whereNote" style="margin-top:4px"></p>
@@ -100,7 +102,7 @@
 <section class="chapter" id="corridors">
   <div class="in">
     <header>
-      <div><span class="kick">Chapter 3</span><h2>Walk the deadliest highways</h2></div>
+      <div><span class="kick" data-n="3">of seven chapters</span><h2>Walk the deadliest highways</h2></div>
       <p>Pick a national highway. The ribbon beside the road rises where police, RHD, researchers and the Road Safety Foundation have listed accident-prone locations, binned every few kilometres along the real OpenStreetMap alignment. Hover a bar to light up that stretch and read what was listed there. Switch to 3D to see the ribbon as a wall.</p>
     </header>
     <div class="explorer">
@@ -137,7 +139,7 @@
 <section class="chapter" id="who">
   <div class="in">
     <header>
-      <div><span class="kick">Chapter 4</span><h2>Who dies</h2></div>
+      <div><span class="kick" data-n="4">of seven chapters</span><h2>Who dies</h2></div>
       <p>Deaths by who the victim was, from the Road Safety Foundation's annual counts. The motorcycle line is the story of the decade. Click a category to hide or show it; hover a point for the share of all deaths that year.</p>
     </header>
     <div class="chartbox">
@@ -165,7 +167,7 @@
 <section class="chapter" id="when">
   <div class="in">
     <header>
-      <div><span class="kick">Chapter 5</span><h2>When</h2></div>
+      <div><span class="kick" data-n="5">of seven chapters</span><h2>When</h2></div>
       <p>Hour of day, month of year, and the two Eid exoduses. Drag the dial handles to select a window of the day and the share of crashes updates; the month strip shows the monthly count across years.</p>
     </header>
     <div class="explorer when">
@@ -191,7 +193,7 @@
 <section class="chapter" id="roads">
   <div class="in">
     <header>
-      <div><span class="kick">Chapter 6</span><h2>Which roads</h2></div>
+      <div><span class="kick" data-n="6">of seven chapters</span><h2>Which roads</h2></div>
       <p>National highways carry the long-distance buses and trucks; regional highways and feeder roads carry the motorcycles, easy-bikes and nosimons. The share of crashes on each class, by year and by source, set against how many kilometres of each class the country has.</p>
     </header>
     <div class="two">
@@ -209,7 +211,7 @@
 <section class="chapter" id="method">
   <div class="in">
     <header>
-      <div><span class="kick">Chapter 7</span><h2>Method, sources, limits</h2></div>
+      <div><span class="kick" data-n="7">of seven chapters</span><h2>Method, sources, limits</h2></div>
       <p>Everything on this page comes from documents anyone can download. Nothing is modelled or interpolated by me. Where sources disagree, both are shown. Where data does not exist, the chart says so instead of pretending.</p>
     </header>
     <div id="methodSources"></div>
