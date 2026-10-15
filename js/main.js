@@ -6,6 +6,7 @@ import { initWho } from "./who.js";
 import { initWhen } from "./when.js";
 import { initRoads } from "./roads.js";
 import { initMethod } from "./method.js";
+import { initTour } from "./tour.js";
 
 const J = p => fetch(p).then(r => { if(!r.ok) throw new Error(p+" "+r.status); return r.json(); });
 
@@ -24,6 +25,7 @@ const J = p => fetch(p).then(r => { if(!r.ok) throw new Error(p+" "+r.status); r
   initWhen(when);
   initRoads(roads);
   initMethod(data);
+  initTour();
   // chapter nav highlight
   const links=[...document.querySelectorAll("nav.chapters a")];
   const obs=new IntersectionObserver(es=>{ es.forEach(e=>{ if(e.isIntersecting) links.forEach(l=>l.classList.toggle("on", l.getAttribute("href")==="#"+e.target.id)); }); }, {rootMargin:"-40% 0px -50% 0px"});

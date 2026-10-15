@@ -33,6 +33,7 @@ export function makeMap(container, opts={}){
   // the section may be laid out after the map is created; resize when it scrolls into view and after fonts settle
   const el=document.getElementById(container);
   new IntersectionObserver(es=>{ if(es.some(e=>e.isIntersecting)) map.resize(); }, {threshold:0.05}).observe(el);
-  setTimeout(()=>map.resize(), 600);
+  if(window.ResizeObserver) new ResizeObserver(()=>map.resize()).observe(el);
+  setTimeout(()=>map.resize(), 600); setTimeout(()=>map.resize(), 2500);
   return map;
 }
