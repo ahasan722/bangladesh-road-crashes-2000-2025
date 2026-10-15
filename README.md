@@ -18,6 +18,8 @@ Live page: https://ahasan722.github.io/bangladesh-road-crashes-2000-2025/
 | Road class | Share of crashes on national, regional, feeder/rural and city roads from every published table, set against the kilometres of each class, and 28 months of road-class counts. |
 | Method | Source table, data-handling notes, disclaimer, and links to every CSV. |
 
+The page also runs a self-guided tour: it starts on its own after a few seconds of idle on a desktop browser (or with `?tour=1` in the URL, or the "Watch tour" button) and hands control back the moment you move the mouse, scroll or press a key. Add `?tour=0` to suppress it.
+
 Everything renders from static JSON and GeoJSON. The basemap is self-hosted (geoBoundaries and Natural Earth), so the page works offline and loads in under two seconds.
 
 ## Where the numbers come from
