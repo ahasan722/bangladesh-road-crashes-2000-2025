@@ -5,7 +5,7 @@ import { buildRoute, pointAt, sliceRoute, Ribbon } from "./ribbon.js";
 export function initCorridors(corridors, spots){
   const refs=["N1","N2","N3","N4","N5","N6","N7","N8","N805"];
   const map=makeMap("corrMap", {center:[90.4,23.8], zoom:6.3, mapOpts:{dragRotate:true, pitchWithRotate:true, maxPitch:65}});
-  const ribbon=new Ribbon(map, document.getElementById("corrCanvas"), {onHover:showHover, maxBarPx:170});
+  const ribbon=new Ribbon(map, document.getElementById("corrCanvas"), {onHover:showHover, maxBarPx:170}); window.__ribbon=ribbon;
   const panel=document.getElementById("corrPanel"), badge=document.getElementById("corrBadge"), stats=document.getElementById("corrStats"), note=document.getElementById("corrNote");
   let ref="N1", binKm=10, layers=["point","upazila"], years=null, is3d=false, route=null;
   const yearsAll=[...new Set(spots.map(s=>s.year).filter(Boolean))].sort();
@@ -24,16 +24,22 @@ export function initCorridors(corridors, spots){
 
   map.on("load", ()=>{
     map.addSource("hw", {type:"geojson", data:"data/highways.geojson"});
-    map.addLayer({id:"hw-r", type:"line", source:"hw", filter:["==",["get","cls"],"regional"], paint:{"line-color":"#4C5560","line-width":["interpolate",["linear"],["zoom"],5,.4,9,1.4]}});
-    map.addLayer({id:"hw-n", type:"line", source:"hw", filter:["==",["get","cls"],"national"], paint:{"line-color":"#6A7682","line-width":["interpolate",["linear"],["zoom"],5,.9,9,2.2]}});
+    map.addLayer({id:"hw-r", type:"line", source:"hw", filter:["==",["get","cls"],"regional"], paint:{"line-color":"#444C55","line-width":["interpolate",["linear"],["zoom"],5,.4,9,1.4]}});
+    map.addLayer({id:"hw-n-glow", type:"line", source:"hw", filter:["==",["get","cls"],"national"], paint:{"line-color":"#9FB0C0","line-width":["interpolate",["linear"],["zoom"],5,3,9,7],"line-opacity":.12,"line-blur":3}});
+    map.addLayer({id:"hw-n", type:"line", source:"hw", filter:["==",["get","cls"],"national"], paint:{"line-color":"#7E8A97","line-width":["interpolate",["linear"],["zoom"],5,.9,9,2.2]}});
     map.addSource("route", {type:"geojson", data:empty()});
-    map.addLayer({id:"route-casing", type:"line", source:"route", paint:{"line-color":"#1F2327","line-width":["interpolate",["linear"],["zoom"],5,5,10,10],"line-opacity":.9}});
-    map.addLayer({id:"route", type:"line", source:"route", paint:{"line-color":C.marigold,"line-width":["interpolate",["linear"],["zoom"],5,2.4,10,5]}});
+    map.addLayer({id:"route-glow", type:"line", source:"route", paint:{"line-color":C.marigold,"line-width":["interpolate",["linear"],["zoom"],5,14,10,26],"line-opacity":.22,"line-blur":8}});
+    map.addLayer({id:"route-casing", type:"line", source:"route", paint:{"line-color":"#15171A","line-width":["interpolate",["linear"],["zoom"],5,5.5,10,11],"line-opacity":.95}});
+    map.addLayer({id:"route", type:"line", source:"route", paint:{"line-color":C.marigold,"line-width":["interpolate",["linear"],["zoom"],5,2.6,10,5.5]}});
+    map.addLayer({id:"route-dash", type:"line", source:"route", paint:{"line-color":"#15171A","line-width":["interpolate",["linear"],["zoom"],5,.8,10,1.6],"line-dasharray":[3,3],"line-opacity":.7}});
     map.addSource("hl", {type:"geojson", data:empty()});
+    map.addLayer({id:"hl-glow", type:"line", source:"hl", paint:{"line-color":C.chalk,"line-width":["interpolate",["linear"],["zoom"],5,18,10,30],"line-opacity":.25,"line-blur":10}});
     map.addLayer({id:"hl", type:"line", source:"hl", paint:{"line-color":C.chalk,"line-width":["interpolate",["linear"],["zoom"],5,5,10,10],"line-opacity":.95}});
     map.addSource("spots", {type:"geojson", data:empty()});
-    map.addLayer({id:"spots-u", type:"circle", source:"spots", filter:["==",["get","precision"],"upazila"], paint:{"circle-radius":["interpolate",["linear"],["zoom"],6,7,10,16],"circle-color":C.vermilion,"circle-opacity":.18,"circle-stroke-color":C.vermilion,"circle-stroke-width":1,"circle-stroke-opacity":.5}});
-    map.addLayer({id:"spots-p", type:"circle", source:"spots", filter:["==",["get","precision"],"point"], paint:{"circle-radius":["interpolate",["linear"],["zoom"],6,2.6,10,5],"circle-color":C.vermilion,"circle-stroke-color":"#1F2327","circle-stroke-width":1}});
+    map.addLayer({id:"spots-u", type:"circle", source:"spots", filter:["==",["get","precision"],"upazila"], paint:{"circle-radius":["interpolate",["linear"],["zoom"],6,8,10,18],"circle-color":C.vermilion,"circle-opacity":.14,"circle-stroke-color":C.vermilion,"circle-stroke-width":1,"circle-stroke-opacity":.5,"circle-blur":.4}});
+    map.addLayer({id:"spots-pulse", type:"circle", source:"spots", filter:["==",["get","precision"],"point"], paint:{"circle-radius":6,"circle-color":C.vermilion,"circle-opacity":.35,"circle-blur":.8}});
+    map.addLayer({id:"spots-p", type:"circle", source:"spots", filter:["==",["get","precision"],"point"], paint:{"circle-radius":["interpolate",["linear"],["zoom"],6,2.8,10,5.5],"circle-color":"#FF6B55","circle-stroke-color":"#15171A","circle-stroke-width":1}});
+    if(!matchMedia("(prefers-reduced-motion: reduce)").matches){ const t0=performance.now(); (function pulse(now){ const k=(Math.sin((now-t0)/600)+1)/2; try{ map.setPaintProperty("spots-pulse","circle-radius",6+k*10); map.setPaintProperty("spots-pulse","circle-opacity",.4-k*.35); }catch(e){} requestAnimationFrame(pulse); })(t0); }
     map.addSource("wp", {type:"geojson", data:empty()});
     map.addLayer({id:"wp", type:"circle", source:"wp", paint:{"circle-radius":3,"circle-color":C.chalk,"circle-stroke-color":"#1F2327","circle-stroke-width":1}});
     map.on("mousemove","spots-p", e=>{ map.getCanvas().style.cursor="pointer"; const p=e.features[0].properties; showSpot(p); });

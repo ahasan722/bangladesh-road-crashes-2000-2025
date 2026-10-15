@@ -10,15 +10,17 @@ export function baseStyle(){
       divisions: { type:"geojson", data:"assets/basemap/divisions.geojson", promoteId:"division" }
     },
     layers: [
-      { id:"bg", type:"background", paint:{ "background-color":"#1D2125" } },
-      { id:"neighbours", type:"fill", source:"countries", filter:["!=",["get","iso"],"BGD"], paint:{ "fill-color":"#24292E" } },
-      { id:"bd", type:"fill", source:"countries", filter:["==",["get","iso"],"BGD"], paint:{ "fill-color":"#2C3238" } },
-      { id:"district-fill", type:"fill", source:"districts", paint:{ "fill-color":"#2C3238", "fill-opacity":0 } },
-      { id:"lakes", type:"fill", source:"lakes", paint:{ "fill-color":"#1A2A36" } },
-      { id:"rivers", type:"line", source:"rivers", paint:{ "line-color":"#3C5A6E", "line-width":["interpolate",["linear"],["zoom"],5,1,8,3,11,6], "line-opacity":.9 } },
-      { id:"district-line", type:"line", source:"districts", paint:{ "line-color":"#3E454D", "line-width":.6 } },
-      { id:"division-line", type:"line", source:"divisions", paint:{ "line-color":"#5A6370", "line-width":1.2 } },
-      { id:"border", type:"line", source:"countries", filter:["==",["get","iso"],"BGD"], paint:{ "line-color":"#7E8893", "line-width":1.4 } }
+      { id:"bg", type:"background", paint:{ "background-color":"#141A20" } },
+      { id:"neighbours", type:"fill", source:"countries", filter:["!=",["get","iso"],"BGD"], paint:{ "fill-color":"#1E2227" } },
+      { id:"bd-glow", type:"line", source:"countries", filter:["==",["get","iso"],"BGD"], paint:{ "line-color":"#F5B335", "line-width":14, "line-opacity":.06, "line-blur":10 } },
+      { id:"bd", type:"fill", source:"countries", filter:["==",["get","iso"],"BGD"], paint:{ "fill-color":"#2A3036" } },
+      { id:"district-fill", type:"fill", source:"districts", paint:{ "fill-color":"#2A3036", "fill-opacity":0 } },
+      { id:"lakes", type:"fill", source:"lakes", paint:{ "fill-color":"#15232E" } },
+      { id:"rivers-glow", type:"line", source:"rivers", paint:{ "line-color":"#2E6E8E", "line-width":["interpolate",["linear"],["zoom"],5,4,8,10,11,18], "line-opacity":.22, "line-blur":4 } },
+      { id:"rivers", type:"line", source:"rivers", paint:{ "line-color":"#3F7D9E", "line-width":["interpolate",["linear"],["zoom"],5,1.1,8,3,11,6], "line-opacity":.95 } },
+      { id:"district-line", type:"line", source:"districts", paint:{ "line-color":"#3B434B", "line-width":.6 } },
+      { id:"division-line", type:"line", source:"divisions", paint:{ "line-color":"#5F6975", "line-width":1.2 } },
+      { id:"border", type:"line", source:"countries", filter:["==",["get","iso"],"BGD"], paint:{ "line-color":"#8A949F", "line-width":1.4 } }
     ]
   };
 }

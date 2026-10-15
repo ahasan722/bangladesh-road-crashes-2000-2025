@@ -1,4 +1,4 @@
-import { fmt, fmt1, seg, chips, tip, relPos, sizeOf, onResize, sourceColor } from "./util.js";
+import { fmt, fmt1, seg, chips, tip, relPos, sizeOf, onResize, sourceColor, glowDefs } from "./util.js";
 
 // rows: {year, source, accidents, deaths, injuries, deaths_per_100k, note, citation_url}
 export function initGap(rows, population){
@@ -25,13 +25,19 @@ export function initGap(rows, population){
     svg.append("g").attr("class","axis").attr("transform",`translate(0,${h-m.b})`).call(d3.axisBottom(x).ticks(13).tickFormat(d3.format("d")));
     svg.append("g").attr("class","axis").attr("transform",`translate(${m.l},0)`).call(d3.axisLeft(y).ticks(scale==="log"?4:6).tickFormat(d=>measure==="rate"?fmt1(d):d3.format("~s")(d)));
     const line=d3.line().x(d=>x(d.year)).y(d=>y(d.v)).curve(d3.curveMonotoneX);
-    const g=svg.append("g");
+    const glow=glowDefs(svg,"gapglow"); const g=svg.append("g");
+    // the gap itself: shaded band between the police line and the highest media-monitored count, where both exist
+    const pol=series.find(s0=>s0.source==="Police/BRTA"), media=series.filter(s0=>["BJKS","RSF"].includes(s0.source));
+    if(pol && media.length && measure!=="rate"){ const band=[]; for(let yr=2000;yr<=2025;yr++){ const p0=pol.pts.find(d=>d.year===yr); const ms=media.map(s0=>s0.pts.find(d=>d.year===yr)).filter(Boolean); if(p0&&ms.length){ const top=d3.max(ms,d=>d.v); if(top>p0.v) band.push({year:yr,lo:p0.v,hi:top}); } }
+      if(band.length>1){ const runs=[]; let cur=[band[0]]; for(let i=1;i<band.length;i++){ if(band[i].year-band[i-1].year>1){ runs.push(cur); cur=[]; } cur.push(band[i]); } runs.push(cur);
+        runs.forEach(run=>{ if(run.length<2) return; g.append("path").attr("d",d3.area().x(d=>x(d.year)).y0(d=>y(d.lo)).y1(d=>y(d.hi)).curve(d3.curveMonotoneX)(run)).attr("fill",sourceColor("BJKS")).attr("opacity",.13); });
+        const mid=band[Math.floor(band.length/2)]; g.append("text").attr("x",x(mid.year)).attr("y",y((mid.lo+mid.hi)/2)).attr("text-anchor","middle").attr("dy","0.35em").attr("fill",sourceColor("BJKS")).attr("font-size",11.5).attr("font-weight",700).attr("opacity",.85).text("deaths the media counted but the police did not"); } }
     series.forEach(s=>{
       const col=sourceColor(s.source);
       // draw gaps as broken segments: split where consecutive years differ by >1
       const runs=[]; let cur=[];
       s.pts.forEach((p,i)=>{ if(i&&p.year-s.pts[i-1].year>1){ runs.push(cur); cur=[]; } cur.push(p); }); runs.push(cur);
-      runs.forEach(run=>{ if(run.length>1) g.append("path").attr("d",line(run)).attr("fill","none").attr("stroke",col).attr("stroke-width",2.4).attr("stroke-linejoin","round"); });
+      runs.forEach(run=>{ if(run.length>1){ g.append("path").attr("d",line(run)).attr("fill","none").attr("stroke",col).attr("stroke-width",6).attr("stroke-opacity",.18).attr("filter",glow); g.append("path").attr("d",line(run)).attr("fill","none").attr("stroke",col).attr("stroke-width",2.4).attr("stroke-linejoin","round"); } });
       // dotted bridge across gaps
       for(let i=1;i<s.pts.length;i++){ if(s.pts[i].year-s.pts[i-1].year>1){ g.append("line").attr("x1",x(s.pts[i-1].year)).attr("y1",y(s.pts[i-1].v)).attr("x2",x(s.pts[i].year)).attr("y2",y(s.pts[i].v)).attr("stroke",col).attr("stroke-width",1.2).attr("stroke-dasharray","2 5").attr("opacity",.7); } }
       g.selectAll(null).data(s.pts).join("circle").attr("cx",d=>x(d.year)).attr("cy",d=>y(d.v)).attr("r",3.2).attr("fill","#262B30").attr("stroke",col).attr("stroke-width",2);

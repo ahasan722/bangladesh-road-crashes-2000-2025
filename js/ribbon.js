@@ -94,7 +94,7 @@ export class Ribbon {
         const top=[poly[3],poly[2],[poly[2][0]+ox,poly[2][1]+oy],[poly[3][0]+ox,poly[3][1]+oy]];
         fill(ctx, side, col.darker(1.1).formatRgb(), .95); fill(ctx, top, col.brighter(.7).formatRgb(), .95);
       }
-      fill(ctx, poly, col.formatRgb(), isH?1:.86);
+      ctx.shadowColor=isH?"rgba(245,179,53,.9)":col.copy({opacity:.55}).formatRgb(); ctx.shadowBlur=isH?22:10; fill(ctx, poly, col.formatRgb(), isH?1:.9); ctx.shadowBlur=0;
       ctx.strokeStyle=isH?C.chalk:"rgba(31,35,39,.8)"; ctx.lineWidth=isH?1.8:.7; path(ctx,poly); ctx.stroke();
       if(isH){ ctx.font="800 12px Open Sans"; ctx.fillStyle=C.chalk; ctx.strokeStyle="rgba(31,35,39,.9)"; ctx.lineWidth=3;
         const lx=(poly[2][0]+poly[3][0])/2+it.nx*10, ly=(poly[2][1]+poly[3][1])/2+it.ny*10; ctx.textAlign="center"; ctx.textBaseline="middle";

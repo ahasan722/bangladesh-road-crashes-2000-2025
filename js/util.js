@@ -69,3 +69,5 @@ export function sourceList(rows, key="source"){ return [...new Set(rows.map(r=>r
 export function haversine(a,b){ const R=6371000, toR=Math.PI/180; const dLat=(b[1]-a[1])*toR, dLng=(b[0]-a[0])*toR; const s=Math.sin(dLat/2)**2+Math.cos(a[1]*toR)*Math.cos(b[1]*toR)*Math.sin(dLng/2)**2; return 2*R*Math.asin(Math.sqrt(s)); }
 
 export function niceStep(v){ const p=Math.pow(10,Math.floor(Math.log10(v))); const r=v/p; return (r<1.5?1:r<3?2:r<7?5:10)*p; }
+
+export function glowDefs(svg, id="glow"){ const f=svg.append("defs").append("filter").attr("id",id).attr("x","-20%").attr("y","-20%").attr("width","140%").attr("height","140%"); f.append("feGaussianBlur").attr("stdDeviation",2.5).attr("result","b"); const m=f.append("feMerge"); m.append("feMergeNode").attr("in","b"); m.append("feMergeNode").attr("in","SourceGraphic"); return `url(#${id})`; }

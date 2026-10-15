@@ -5,13 +5,13 @@ import { makeMap } from "./basemap.js";
 const DIV_FIX = {"Chittagong":"Chattogram","Barisal":"Barishal","Rajshani":"Rajshahi"};
 
 export function initWhere(where, popAdmin, spots, national){
-  const map=makeMap("whereMap", {center:[90.3,23.75], zoom:6.15});
+  const map=makeMap("whereMap", {center:[90.2,23.3], zoom:6.45, mapOpts:{maxPitch:60}});
   const panel=document.getElementById("wherePanel"), stats=document.getElementById("whereStats"), legend=document.getElementById("whereLegend"), note=document.getElementById("whereNote"), yearEl=document.getElementById("whereYear");
   const pop=Object.fromEntries(popAdmin.filter(p=>p.level==="division").map(p=>[p.name,p]));
   const popD=Object.fromEntries(popAdmin.filter(p=>p.level==="district").map(p=>[p.name,p]));
   // periods: pooled first, then each published period
   const periods=[{period:"pooled", label:`All published periods pooled (${where.pooled_n})`, shares:where.pooled, basis:"accidents", totals:{}, sources:[]}, ...where.periods];
-  let pi=0, measure="share", layer="division", playing=false, timer=null;
+  let pi=0, measure="share", layer="division", playing=false, timer=null, is3d=true;
   const slider=document.getElementById("whereSlider"); slider.min=0; slider.max=periods.length-1; slider.value=0;
   const srcSel=document.getElementById("whereSource");
   srcSel.innerHTML=`<option value="division">Division share of crashes (RSF)</option><option value="district">Listed hazardous spots per district</option>`;
@@ -20,6 +20,8 @@ export function initWhere(where, popAdmin, spots, national){
   const segEl=document.getElementById("whereMeasure"); segEl.innerHTML=`<button data-v="share" class="on">Share %</button><button data-v="rate">Per million people</button>`;
   seg(segEl, v=>{ measure=v; render(); });
   slider.addEventListener("input", ()=>{ pi=+slider.value; render(); });
+  const b3=document.getElementById("where3d"); b3.classList.add("on");
+  b3.addEventListener("click", ()=>{ is3d=!is3d; b3.classList.toggle("on",is3d); map.easeTo({pitch:is3d?52:0, bearing:is3d?-12:0, duration:900}); render(); });
   document.getElementById("wherePlay").addEventListener("click", ()=>{ playing=!playing; document.getElementById("wherePlay").textContent=playing?"Pause":"Play"; document.getElementById("wherePlay").classList.toggle("on",playing);
     if(playing){ timer=setInterval(()=>{ pi=(pi+1)%periods.length; slider.value=pi; render(); }, 1600); } else clearInterval(timer); });
 
@@ -30,13 +32,16 @@ export function initWhere(where, popAdmin, spots, national){
   map.on("load", ()=>{
     map.addLayer({id:"div-fill", type:"fill", source:"divisions", paint:{"fill-color":"#2C3238","fill-opacity":.9}}, "lakes");
     map.addLayer({id:"dist-fill2", type:"fill", source:"districts", paint:{"fill-color":"#2C3238","fill-opacity":0}}, "lakes");
+    map.addLayer({id:"div-ext", type:"fill-extrusion", source:"divisions", paint:{"fill-extrusion-color":"#2C3238","fill-extrusion-height":0,"fill-extrusion-base":0,"fill-extrusion-opacity":.92,"fill-extrusion-vertical-gradient":true}});
     map.addLayer({id:"div-hover", type:"line", source:"divisions", paint:{"line-color":C.chalk,"line-width":2.2}, filter:["==",["get","division"],""]});
+    map.easeTo({pitch:52, bearing:-12, duration:0});
     map.addLayer({id:"dist-hover", type:"line", source:"districts", paint:{"line-color":C.chalk,"line-width":2}, filter:["==",["get","district"],""]});
     // division name markers
     const centers={Dhaka:[90.3,23.9],Chattogram:[91.6,22.6],Rajshahi:[88.9,24.4],Khulna:[89.3,22.7],Barishal:[90.35,22.5],Sylhet:[91.6,24.7],Rangpur:[89.2,25.7],Mymensingh:[90.5,24.9]};
     Object.entries(centers).forEach(([n,c])=>{ const el=document.createElement("div"); el.className="divlabel"; el.textContent=n; el.style.cssText="font:700 11px Open Sans;color:#ECE8DF;text-shadow:0 1px 2px #000;pointer-events:none;opacity:.85"; new maplibregl.Marker({element:el}).setLngLat(c).addTo(map); });
-    map.on("mousemove","div-fill", e=>{ const d=DIV_FIX[e.features[0].properties.division]||e.features[0].properties.division; map.setFilter("div-hover",["==",["get","division"],e.features[0].properties.division]); showDiv(d); });
-    map.on("mouseleave","div-fill", ()=>{ map.setFilter("div-hover",["==",["get","division"],""]); defaultPanel(); });
+    const onDiv=e=>{ const d=DIV_FIX[e.features[0].properties.division]||e.features[0].properties.division; map.setFilter("div-hover",["==",["get","division"],e.features[0].properties.division]); showDiv(d); };
+    const offDiv=()=>{ map.setFilter("div-hover",["==",["get","division"],""]); defaultPanel(); };
+    map.on("mousemove","div-fill", onDiv); map.on("mouseleave","div-fill", offDiv); map.on("mousemove","div-ext", onDiv); map.on("mouseleave","div-ext", offDiv);
     map.on("mousemove","dist-fill2", e=>{ if(layer!=="district") return; const raw=e.features[0].properties.district, d=DIST_FIX[raw]||raw; map.setFilter("dist-hover",["==",["get","district"],raw]); showDist(d); });
     map.on("mouseleave","dist-fill2", ()=>{ map.setFilter("dist-hover",["==",["get","district"],""]); if(layer==="district") defaultPanel(); });
     render();
@@ -54,12 +59,15 @@ export function initWhere(where, popAdmin, spots, national){
       const vals=where.divisions.map(d=>valueFor(d)).filter(v=>v!=null); const max=d3.max(vals)||1, min=0;
       const expr=["match",["get","division"]]; where.divisions.forEach(d=>{ const key=Object.keys(DIV_FIX).find(k=>DIV_FIX[k]===d)||d; const v=valueFor(d); expr.push(key, v==null?"#3C434B":ramp((v-min)/(max-min))); }); expr.push("#3C434B");
       map.setPaintProperty("div-fill","fill-color",expr);
+      map.setPaintProperty("div-ext","fill-extrusion-color",expr);
+      const hexpr=["match",["get","division"]]; where.divisions.forEach(d=>{ const key=Object.keys(DIV_FIX).find(k=>DIV_FIX[k]===d)||d; const v=valueFor(d); hexpr.push(key, (is3d&&v!=null)? v/max*90000 : 0); }); hexpr.push(0);
+      map.setPaintProperty("div-ext","fill-extrusion-height",hexpr); map.setLayoutProperty("div-ext","visibility","visible");
       legend.innerHTML=`${measure==="share"?"Share of reported crashes":"Crashes per million residents in the period"}<div class="bar" style="background:${rampCss}"></div><div class="ends"><span>0</span><span>${measure==="share"?fmt1(max)+"%":fmt1(max)}</span></div>`;
       const top=where.divisions.map(d=>({d,v:valueFor(d)})).filter(x=>x.v!=null).sort((a,b)=>b.v-a.v);
       stats.innerHTML=`<div class="stat red"><b class="num">${top[0]?top[0].d:"–"}</b><span>highest: ${top[0]?fmt1(top[0].v)+(measure==="share"?"%":""):""}</span></div><div class="stat"><b class="num">${top[top.length-1]?top[top.length-1].d:"–"}</b><span>lowest: ${top.length?fmt1(top[top.length-1].v)+(measure==="share"?"%":""):""}</span></div><div class="stat yel"><b class="num">${p.totals.accidents?fmt(p.totals.accidents):"–"}</b><span>crashes in period</span></div><div class="stat"><b class="num">${p.totals.deaths?fmt(p.totals.deaths):"–"}</b><span>deaths in period</span></div>`;
       note.innerHTML = p.period==="pooled" ? `Pooled from the ${where.pooled_n} periods for which the Road Safety Foundation published an 8-division table in the press (${where.periods.map(x=>x.label).join(", ")}), weighted by each period's crash count. RSF annual reports give only the highest and lowest division; no full division table for a calendar year was found online.` : `Division shares as published for ${p.label}${p.basis==="deaths"?" (share of deaths)":" (share of crashes)"}. ${p.sources.length?`<a href="${p.sources[0]}" target="_blank" rel="noopener">source</a>`:""}`;
     } else {
-      map.setLayoutProperty("div-fill","visibility","none");
+      map.setLayoutProperty("div-fill","visibility","none"); map.setLayoutProperty("div-ext","visibility","none"); if(is3d){ map.easeTo({pitch:0,bearing:0,duration:700}); }
       const max=d3.max(Object.values(spotByDistrict))||1; const expr=["match",["get","district"]];
       Object.keys(DIST_FIX).concat(Object.keys(popD)).forEach(k=>{}); // no-op, names handled below
       const names=new Set(); map.getSource("districts"); // districts geojson names (BBS old spellings)
